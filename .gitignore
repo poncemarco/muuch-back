@@ -1,0 +1,9 @@
+*.jpg
+*.png
+*.pyc
+*.cpython-310.pyc
+*.cpython-310.opt-1.pyc
+*.pdf
+*.DS_Store
+*.ipynb_checkpoints
+*sqlite3

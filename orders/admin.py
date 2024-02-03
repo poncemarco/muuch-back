@@ -1,6 +1,17 @@
 from django.contrib import admin
 from .models import Order
+from django.contrib import admin
+from .models import Order
+from files.models import Ticket
 # Register your models here.
 
-admin.site.register(Order)
+
+class TicketInline(admin.TabularInline):
+    model = Ticket
+
+@admin.register(Order)
+class OrderAdmin(admin.ModelAdmin):
+    inlines = [TicketInline]
+
+
 
