@@ -5,8 +5,8 @@ def run():
     for item in items:
         try:
             if not item.images.exists():
-                name = item.name.replace("/", "-") #.replace(".", "")
-                item.images.create(image_path=f"images/products_images/{name}0 Background Removed.png")
+                name = item.name.replace(" ", "+").rstrip('.') 
+                item.images.create(image_path=f"images/products_images/{name} Background Removed.png")
                 print(f"Imagen para {item.name} creada")
             else:
                 print(f"Imagen para {item.name} ya existe")

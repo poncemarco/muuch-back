@@ -1,0 +1,3088 @@
+{
+    "catalogo": [
+      {
+        "item": "ACAPULCOCO C/18 PZA.330 ML.",
+        "unidad": "",
+        "categoria": "Jugos",
+        "id": 2
+      },
+      {
+        "item": "ACAPULCOCO,AGUA /COCO CALAHUA  1 LT PZA.",
+        "unidad": "",
+        "categoria": "Jugos",
+        "id": 3
+      },
+      {
+        "item": "ACEITE DE AJONJOLI TOSTADO INES 1 LT.",
+        "unidad": "",
+        "categoria": "Aceites",
+        "id": 4
+      },
+      {
+        "item": "ACEITE DE COCO 420 ML",
+        "unidad": "",
+        "categoria": "Aceites",
+        "id": 5
+      },
+      {
+        "item": "ACEITE DE COCO NATURAL 1.2 KG.",
+        "unidad": "",
+        "categoria": "Aceites",
+        "id": 6
+      },
+      {
+        "item": "ACEITE DE OJONJOLI TOSTADO INES 3.78 LT.",
+        "unidad": "",
+        "categoria": "Aceites",
+        "id": 7
+      },
+      {
+        "item": "ACEITE DE OLIVA CARBONELL 5 LT",
+        "unidad": "",
+        "categoria": "Aceites",
+        "id": 8
+      },
+      {
+        "item": "ACEITE DE OLIVA CARBONELL LTO.",
+        "unidad": "",
+        "categoria": "Aceites",
+        "id": 9
+      },
+      {
+        "item": "ACEITE DE OLIVA VIRGEN LA GITANA 5 LT.",
+        "unidad": "Unidad",
+        "categoria": "Aceites",
+        "precio": 506,
+        "id": 10
+      },
+      {
+        "item": "ACEITE DE OLIVO EXT.VIRG.CARBONELL 2 LT.",
+        "unidad": "Unidad",
+        "categoria": "Aceites",
+        "precio": 448.67,
+        "id": 11
+      },
+      {
+        "item": "ACEITE DE OLIVO EXTRA VIRGEN INES 1 LT.",
+        "unidad": "",
+        "categoria": "Aceites",
+        "id": 12
+      },
+      {
+        "item": "ACEITE DE CACAHUATE TOSTADO INES 250 ML.",
+        "unidad": "Unidad",
+        "categoria": "Aceites",
+        "precio": 58,
+        "id": 13
+      },
+      {
+        "item": "ACEITE DE OLIVO YBARRA 946 ML",
+        "unidad": "",
+        "categoria": "Aceites",
+        "id": 14
+      },
+      {
+        "item": "ACEITE DE SOYA BUNGE 20 LT",
+        "unidad": "Unidad",
+        "categoria": "Aceites",
+        "precio": 690,
+        "id": 15
+      },
+      {
+        "item": "ACEITE DE SOYA NUTRIOLI 946 GR.",
+        "unidad": "",
+        "categoria": "Aceites",
+        "id": 16
+      },
+      {
+        "item": "ACEITE DE TRUFA BLANCA 250 ML.",
+        "unidad": "",
+        "categoria": "Aceites",
+        "id": 17
+      },
+      {
+        "item": "ACEITE DE TRUFA NEGRA 250 ML.",
+        "unidad": "",
+        "categoria": "Aceites",
+        "id": 18
+      },
+      {
+        "item": "ACEITE HIDROGENADO KING FRY BIDON 20 LT",
+        "unidad": "Unidad",
+        "categoria": "Aceites",
+        "precio": 800,
+        "id": 19
+      },
+      {
+        "item": "ACEITE HIDROGENADO PALMITA BIDON 20 LT",
+        "unidad": "",
+        "categoria": "Aceites",
+        "id": 20
+      },
+      {
+        "item": "ACEITE HIDROGENADO RICAFRIT 20 LT",
+        "unidad": "",
+        "categoria": "Aceites",
+        "id": 21
+      },
+      {
+        "item": "ACEITE MARAVILLA 1 LT",
+        "unidad": "",
+        "categoria": "Aceites",
+        "id": 22
+      },
+      {
+        "item": "ACEITE PAM MANTEQUILLA AEROSOL 141 GRS",
+        "unidad": "",
+        "categoria": "Aceites",
+        "id": 23
+      },
+      {
+        "item": "ACEITE PAM ORIGINAL AEROSOL 170 GRS",
+        "unidad": "Unidad",
+        "categoria": "Aceites",
+        "precio": 57,
+        "id": 24
+      },
+      {
+        "item": "ACEITE PURO DE SOYA  NUTRIOLI  850 ML",
+        "unidad": "Unidad",
+        "categoria": "Aceites",
+        "precio": 35.85,
+        "id": 25
+      },
+      {
+        "item": "ACEITE SOL C/20 LT",
+        "unidad": "",
+        "categoria": "Aceites",
+        "id": 26
+      },
+      {
+        "item": "ACEITE VEGETAL 123   1LT.",
+        "unidad": "Unidad",
+        "categoria": "Aceites",
+        "precio": 40.5,
+        "id": 27
+      },
+      {
+        "item": "ACEITE VEGETAL CRISTAL  20 LT.",
+        "unidad": "",
+        "categoria": "Aceites",
+        "id": 28
+      },
+      {
+        "item": "ACEITE VEGETAL CRISTAL 5 LT.",
+        "unidad": "",
+        "categoria": "Aceites",
+        "id": 29
+      },
+      {
+        "item": "ACEITE VEGETAL DELYFRY  BIDON 20 LT",
+        "unidad": "",
+        "categoria": "Aceites",
+        "id": 30
+      },
+      {
+        "item": "ACEITUNA KALAMATA S/H 2. KG.",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 31
+      },
+      {
+        "item": "ACEITUNA NEGRA REBANADA ASTRA LATA 3KG.",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 32
+      },
+      {
+        "item": "ACEITUNA NEGRA REBANADA CARBONELL 3 KG.",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 33
+      },
+      {
+        "item": "ACEITUNA NEGRA S/HUESO ZAPHRON 900 GR",
+        "unidad": "Unidad",
+        "categoria": "Ingredientes",
+        "precio": 75.12,
+        "id": 34
+      },
+      {
+        "item": "ACEITUNA SERPIS VERDE GORDAL S/H 340GR",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 35
+      },
+      {
+        "item": "ACEITUNA VERDE  GORDAL   FCO 1 KG.",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 36
+      },
+      {
+        "item": "ACEITUNA VERDE JOLCA S/H  820 GRS",
+        "unidad": "Unidad",
+        "categoria": "Ingredientes",
+        "precio": 81.7,
+        "id": 37
+      },
+      {
+        "item": "ACEITUNA VERDE REBANADA ASTRA LATA 3 KG",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 38
+      },
+      {
+        "item": "ACHIOTE ANITA 1 KG.",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 39
+      },
+      {
+        "item": "ACIDO CITRICO KG",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 40
+      },
+      {
+        "item": "AD BLUE CHEESE LIKE 473 ML.",
+        "unidad": "",
+        "categoria": "Lacteos",
+        "id": 41
+      },
+      {
+        "item": "ADEREZO RANCH LIKE 3.79 LT.",
+        "unidad": "",
+        "categoria": "Complementos",
+        "id": 42
+      },
+      {
+        "item": "ADEREZO RANCH ZAFRAN  3.4 KG",
+        "unidad": "",
+        "categoria": "Complementos",
+        "id": 43
+      },
+      {
+        "item": "ADES NATURAL",
+        "unidad": "",
+        "categoria": "Jugo",
+        "id": 44
+      },
+      {
+        "item": "AGAR -AGAR  KG",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 45
+      },
+      {
+        "item": "AGUA DE ROSAS 250 ML",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 46
+      },
+      {
+        "item": "AJO EN POLVO MC 595 GRS",
+        "unidad": "",
+        "categoria": "Complementos",
+        "id": 47
+      },
+      {
+        "item": "AJONJOLI  GARAPIÑADO 1 KG",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 48
+      },
+      {
+        "item": "AJONJOLI BLANCO KG",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 49
+      },
+      {
+        "item": "AJONJOLI NEGRO",
+        "unidad": "KG",
+        "categoria": "Ingredientes",
+        "precio": 72,
+        "id": 50
+      },
+      {
+        "item": "AJONJOLI TOSTADO KG.",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 51
+      },
+      {
+        "item": "ALCACHOFA CORAZON LATA SAN MIGUEL 2.5 KG",
+        "unidad": "Unidad",
+        "categoria": "Ingredientes",
+        "precio": 283,
+        "id": 52
+      },
+      {
+        "item": "ALCACHOFA SAN MIGUEL  420 GR",
+        "unidad": "Unidad",
+        "categoria": "Ingredientes",
+        "precio": 57,
+        "id": 53
+      },
+      {
+        "item": "ALCAPARRA PASIEGA 950 GR",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 54
+      },
+      {
+        "item": "ALCAPARRA SAN MIGUEL 900 GR",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 55
+      },
+      {
+        "item": "ALGA KOMBU PQ",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 56
+      },
+      {
+        "item": "ALMEJA BABY 800 GRS.",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 57
+      },
+      {
+        "item": "ALMENDRA ENTERA KG",
+        "unidad": "KG",
+        "categoria": "Ingredientes",
+        "precio": 120,
+        "id": 58
+      },
+      {
+        "item": "ALMENDRA FILETEADA KG",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 59
+      },
+      {
+        "item": "ALMENDRA MOLIDA KG.",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 60
+      },
+      {
+        "item": "ALPURA DESLACTOSADA  C/12",
+        "unidad": "",
+        "categoria": "Lacteos",
+        "id": 61
+      },
+      {
+        "item": "ALUBIAS CIDACOS  EXTRA  570 GR.",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 62
+      },
+      {
+        "item": "ANCHOAS FILETE EN ACEITE GIRASOL PELAZZA 50G.",
+        "unidad": "Unidad",
+        "categoria": "Ingredientes",
+        "precio": 30,
+        "id": 63
+      },
+      {
+        "item": "ANCHOAS ZAPHRON 50 GRS.",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 64
+      },
+      {
+        "item": "ANIS ESTRELLA KG",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 65
+      },
+      {
+        "item": "APIO MOLIDO KG.",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 66
+      },
+      {
+        "item": "ARANDANO DESH. OCEAN SPRAY KG",
+        "unidad": "KG",
+        "categoria": "Ingredientes",
+        "precio": 92,
+        "id": 67
+      },
+      {
+        "item": "ARROZ ARBORIO RISO SCOTTI KG",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 68
+      },
+      {
+        "item": "ARROZ LARGO SINALOA 7 ARROYOS 1KG",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 69
+      },
+      {
+        "item": "ARROZ MORELOS  GRANO GRUESO  AZUL 1 KG.",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 70
+      },
+      {
+        "item": "ARROZ PRECOCIDO SCHETINO 1KG",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 71
+      },
+      {
+        "item": "ARROZ PRECOCIDO SOS AMARILLO 1 KG",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 72
+      },
+      {
+        "item": "ARROZ PRECOCIDO SOS AMARILLO 1 KG",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 73
+      },
+      {
+        "item": "ARROZ SOS AZUL GRUESO 1 KG.",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 74
+      },
+      {
+        "item": "ARROZ SUPER EXTRA SCHETTINO KG",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 75
+      },
+      {
+        "item": "ARROZ VERDE VALLE SUPER EXTRA 1 KG",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 76
+      },
+      {
+        "item": "ATUN DOLORES EN AGUA 133 GR",
+        "id": 77
+      },
+      {
+        "item": "ATUN EN AGUA NAIR 1.88 KG.",
+        "id": 78
+      },
+      {
+        "item": "ATUN NAIR 140 GR",
+        "id": 79
+      },
+      {
+        "item": "AVENA 3 MINUTOS BOTE 375 GR",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 80
+      },
+      {
+        "item": "AVENA BOLS. 500 GRS",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 81
+      },
+      {
+        "item": "AVENA HOJUEALA  KG.",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 82
+      },
+      {
+        "item": "AZAFRAN LA PASIEGA  2GR",
+        "unidad": "Unidad",
+        "categoria": "Ingredientes",
+        "precio": 250,
+        "id": 83
+      },
+      {
+        "item": "AZUCAR EN CUBO TERRONES CJA/ 1 KG.",
+        "unidad": "KG",
+        "categoria": "Ingredientes",
+        "precio": 90,
+        "id": 84
+      },
+      {
+        "item": "AZUCAR ESTANDAR 1 KG.",
+        "unidad": "KG",
+        "categoria": "Ingredientes",
+        "precio": 26.1,
+        "id": 85
+      },
+      {
+        "item": "AZUCAR ESTANDAR BULTO 50 KG",
+        "unidad": "Unidad",
+        "categoria": "Ingredientes",
+        "precio": 1076.4,
+        "id": 86
+      },
+      {
+        "item": "AZUCAR GLASS SAN BLAS 1 KG.",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 87
+      },
+      {
+        "item": "AZUCAR GLASS ZUCARMEX 500 GRS",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 88
+      },
+      {
+        "item": "AZUCAR MASCABADA ZULKA  500 GRS",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 89
+      },
+      {
+        "item": "AZUCAR MOSCABADA EN SOBRE DOMINO C/200 PZA.",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 90
+      },
+      {
+        "item": "AZUCAR MOSCABADA EN SOBRE ZUCARMEX C/1000 PZA.",
+        "unidad": "Caja",
+        "categoria": "Ingredientes",
+        "precio": 213.2,
+        "id": 91
+      },
+      {
+        "item": "AZUCAR REF SOBRE  2000/5",
+        "unidad": "Caja",
+        "categoria": "Ingredientes",
+        "precio": 528,
+        "id": 92
+      },
+      {
+        "item": "AZUCAR REFINADA 1 KG",
+        "unidad": "KG",
+        "categoria": "Ingredientes",
+        "precio": 31,
+        "id": 93
+      },
+      {
+        "item": "AZUCAR REFINADA BULTO 50 KG.",
+        "unidad": "Unidad",
+        "categoria": "Ingredientes",
+        "precio": 1680,
+        "id": 94
+      },
+      {
+        "item": "AZUCAR REFINADA EN SOBRE ZUCARMEX C/1000 PZA.",
+        "unidad": "Caja",
+        "categoria": "Ingredientes",
+        "precio": 197,
+        "id": 95
+      },
+      {
+        "item": "AZUCAR SPLENDA C/700",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 96
+      },
+      {
+        "item": "AZUCAR STEVIA 1 G.  C/340 PZA",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 97
+      },
+      {
+        "item": "BBQ ABAL 4 KG",
+        "unidad": "",
+        "categoria": "Salsas",
+        "id": 98
+      },
+      {
+        "item": "BBQ HEINZ 3.8",
+        "unidad": "",
+        "categoria": "Salsas",
+        "id": 99
+      },
+      {
+        "item": "BICARBONATO DGARI 220 GR",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 100
+      },
+      {
+        "item": "BICARBONATO KG.",
+        "unidad": "KG",
+        "categoria": "Ingredientes",
+        "precio": 15.52,
+        "id": 101
+      },
+      {
+        "item": "BOLLOS BRIOCHE C/20 PZA",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 102
+      },
+      {
+        "item": "BOMBON MINI 4/30PZAS",
+        "unidad": "",
+        "categoria": "Dulces",
+        "id": 103
+      },
+      {
+        "item": "BORGES VINAGRE CAVA 250ml",
+        "unidad": "",
+        "categoria": "Vinagres",
+        "id": 104
+      },
+      {
+        "item": "CACAHUATE JAPONES 1 KG.",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 105
+      },
+      {
+        "item": "CACAHUATE SALADO KG",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 106
+      },
+      {
+        "item": "CACAHUATE SECO",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 107
+      },
+      {
+        "item": "CACAHUATE TOSTADO KG",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 108
+      },
+      {
+        "item": "CAFE  EN GRANO LOS PORTALES 500 GR.",
+        "unidad": "",
+        "categoria": "Cafe",
+        "id": 109
+      },
+      {
+        "item": "CAFE DESCAFEINADO MOLIDO 500 GR.",
+        "unidad": "",
+        "categoria": "Cafe",
+        "id": 110
+      },
+      {
+        "item": "CAFE EN CAPSULA EXPRESO CAPUCHINO C/40 CAPSULAS",
+        "unidad": "Caja",
+        "categoria": "Cafe",
+        "precio": 265.98,
+        "id": 111
+      },
+      {
+        "item": "CAFÉ EN GRANO MEMBERS´MARK 1 KG",
+        "unidad": "",
+        "categoria": "Cafe",
+        "id": 112
+      },
+      {
+        "item": "CAFÉ EN GRANO SELVAT 500 GR",
+        "unidad": "",
+        "categoria": "Cafe",
+        "id": 113
+      },
+      {
+        "item": "CAFÉ GARAT TOSTADO EN GRANO 1 kg",
+        "unidad": "KG",
+        "categoria": "Cafe",
+        "precio": 298,
+        "id": 114
+      },
+      {
+        "item": "CAFE LEGAL 400 GR.",
+        "unidad": "",
+        "categoria": "Cafe",
+        "id": 115
+      },
+      {
+        "item": "CAFE MOLIDO GARAT AMERICANO 908 GR",
+        "unidad": "Unidad",
+        "categoria": "Cafe",
+        "precio": 271,
+        "id": 116
+      },
+      {
+        "item": "CAFE MOLIDO GARAT AMERICANO 908 GR",
+        "unidad": "Unidad",
+        "categoria": "Cafe",
+        "precio": 271,
+        "id": 117
+      },
+      {
+        "item": "CAJETA REAL POTOSI 1.2 KG",
+        "unidad": "Unidad",
+        "categoria": "Ingredientes",
+        "precio": 124.6,
+        "id": 118
+      },
+      {
+        "item": "CALDO DE RES CAMPBELLS 300 GRS",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 119
+      },
+      {
+        "item": "CAMARON SECO MEDIANO KG",
+        "unidad": "KG",
+        "categoria": "Ingredientes",
+        "precio": 340,
+        "id": 120
+      },
+      {
+        "item": "CANELA ESPECIAL  GRANEL",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 121
+      },
+      {
+        "item": "CANELA 4-C  GRANEL",
+        "unidad": "KG",
+        "categoria": "Ingredientes",
+        "precio": 264,
+        "id": 122
+      },
+      {
+        "item": "CANELA MOLIDA BADIA 453 GR",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 123
+      },
+      {
+        "item": "CANELA MOLIDA MC 400 GR",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 124
+      },
+      {
+        "item": "CANELA MOLIDA MC 510 GR",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 125
+      },
+      {
+        "item": "CANELA MOLIDA MCCK 220 GRSM",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 126
+      },
+      {
+        "item": "CANELA MOLIDA PRAGNA",
+        "unidad": "",
+        "categoria": "Ingredientes",
+        "id": 127
+      },
+      {
+        "item": "CAPSULA DE CAFÉ DOLCE LUNGO C/48",
+        "unidad": "Caja",
+        "categoria": "Cafe",
+        "precio": 358,
+        "id": 128
+      },
+      {
+        "item": "CAPSULAS DE CAFE PUNTA DE CIELO EXPRESO 60PZ",
+        "unidad": "Caja",
+        "categoria": "Cafe",
+        "precio": 367.1,
+        "id": 129
+      },
+      {
+        "item": "CARDOMOMO ENTERO 1KG.",
+        "unidad": "KG",
+        "categoria": "Ingredientes",
+        "precio": 311,
+        "id": 130
+      },
+      {
+        "item": "CATSUP DE BOLSA LA COSTEÑA 3KG",
+        "unidad": "Unidad",
+        "categoria": "Ingredientes",
+        "precio": 108.33,
+        "id": 131
+      },
+      {
+        "item": "CATSUP SOBRE HEINZ C/500",
+        "id": 132
+      },
+      {
+        "item": "CEBOLLITAS CAMPOMAR 345 GR.",
+        "id": 133
+      },
+      {
+        "item": "CEREAL CORN FLAKES KELLOGGS 500 GR",
+        "id": 134
+      },
+      {
+        "item": "CEREAL FROOT LOOTS KELLOGGS 410 GR.",
+        "id": 135
+      },
+      {
+        "item": "CEREZA DIANA C/TALLO 4 KG",
+        "id": 136
+      },
+      {
+        "item": "CEREZA LOL-TUN  1.1 KG",
+        "id": 137
+      },
+      {
+        "item": "CHABACANO DESHIDRATADO",
+        "id": 138
+      },
+      {
+        "item": "CHAMOY MEGA 1 LT.",
+        "id": 139
+      },
+      {
+        "item": "CHAMOY MEGA GALON 4L",
+        "id": 140
+      },
+      {
+        "item": "CHAMOY MIGUELITO 980 GRS",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 57.57,
+        "id": 141
+      },
+      {
+        "item": "CHAMPIÑON REBANADO CORINA 780 GR",
+        "id": 142
+      },
+      {
+        "item": "CHIA",
+        "unidad": "KG",
+        "categoria": "Abarrote",
+        "precio": 72,
+        "id": 143
+      },
+      {
+        "item": "CHICHAROS HERDEZ 400 GR.",
+        "id": 144
+      },
+      {
+        "item": "CHIISPA DE CHOCOLATE ALPEZZI  COLORES KG.",
+        "id": 145
+      },
+      {
+        "item": "CHILE  CASCABEL KG",
+        "id": 146
+      },
+      {
+        "item": "CHILE ANCHO KG",
+        "id": 147
+      },
+      {
+        "item": "CHILE CHILTEPIN",
+        "id": 148
+      },
+      {
+        "item": "CHILE CHIPOTLE  ADOBADO SAN MARCOS 380 GRS",
+        "id": 149
+      },
+      {
+        "item": "CHILE CHIPOTLE DEL MONTE 2.9 KG",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 225,
+        "id": 150
+      },
+      {
+        "item": "CHILE CHIPOTLE LA COSTEÑA 2.8 KG",
+        "id": 151
+      },
+      {
+        "item": "CHILE CHIPOTLE LA COSTEÑA 380 GR",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 42.51,
+        "id": 152
+      },
+      {
+        "item": "CHILE CHIPOTLE MECO  KG -",
+        "id": 153
+      },
+      {
+        "item": "CHILE CRUSH QUEBRADO 340 GR. BADIA",
+        "id": 154
+      },
+      {
+        "item": "CHILE CRUSH QUEBRADO 340 GR. MCCK",
+        "id": 155
+      },
+      {
+        "item": "CHILE DE ARBOL C/ PATA",
+        "id": 156
+      },
+      {
+        "item": "CHILE DE ARBOL NACIONAL  S/PATA",
+        "id": 157
+      },
+      {
+        "item": "CHILE GUAJILLO NUEVO KG",
+        "id": 158
+      },
+      {
+        "item": "CHILE JALAPEÑO P/NACHOS LA COSTEÑA 2.9KG",
+        "id": 159
+      },
+      {
+        "item": "CHILE JALAPEÑO NACHOS CAREY BOLSA 3 KG.",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 74,
+        "id": 160
+      },
+      {
+        "item": "CHILE JALAPEÑO RAJAS LA COSTEÑA 2.8 KG",
+        "id": 161
+      },
+      {
+        "item": "CHILE JALAPEÑO RAJAS LA COSTEÑA 380 GRS",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 24.86,
+        "id": 162
+      },
+      {
+        "item": "CHILE MORITA KG",
+        "id": 163
+      },
+      {
+        "item": "CHILE MULATO 1 KG",
+        "id": 164
+      },
+      {
+        "item": "CHILE PASILLA KG",
+        "id": 165
+      },
+      {
+        "item": "CHILE PIQUIN ENTERO KG.",
+        "id": 166
+      },
+      {
+        "item": "CHILE TRITURADO HEINZ SOBRE C/400 PZ",
+        "id": 167
+      },
+      {
+        "item": "CHILE WERO SAN MARCOS 400",
+        "id": 168
+      },
+      {
+        "item": "CHILES CHIPOTLES SAN MARCOS 380 GRS.",
+        "id": 169
+      },
+      {
+        "item": "CHILES JALAPEÑO ENTERO LA COSTEÑA 2.8 KG",
+        "id": 170
+      },
+      {
+        "item": "CHILES NACHOS COSTEÑA 220 GR.",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 17.9,
+        "id": 171
+      },
+      {
+        "item": "CHISPAS DE CHOCOLATE ALPEZZI  KG.",
+        "id": 172
+      },
+      {
+        "item": "CHISPAS OBS.HORNEABLE RICOLINO  KG",
+        "id": 173
+      },
+      {
+        "item": "CHOCOLATE ABUELITA",
+        "id": 174
+      },
+      {
+        "item": "CHOCOLATE CALLEBEUT",
+        "id": 175
+      },
+      {
+        "item": "CHOCOLATE EN POLVO ABUELITA 320 GRS",
+        "id": 176
+      },
+      {
+        "item": "CHOCOLATE HERSHEY  LIQ. 589 GRM.",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 43.66,
+        "id": 177
+      },
+      {
+        "item": "CHOCOLATE HERSHYES 3.4 LT",
+        "id": 178
+      },
+      {
+        "item": "CHOCOLATE IBARRA 630 GR",
+        "id": 179
+      },
+      {
+        "item": "CHOCOLATE MORELIA 700 GRS POLVO",
+        "id": 180
+      },
+      {
+        "item": "CHOCOLATE SICAO OBSCURO 1 KG.",
+        "id": 181
+      },
+      {
+        "item": "CHOCOLATE TURIN GRANILLO KG.",
+        "id": 182
+      },
+      {
+        "item": "CIRUELA PASA KG.",
+        "id": 183
+      },
+      {
+        "item": "CLARA DE HUEVO SAN JUAN",
+        "id": 184
+      },
+      {
+        "item": "CLAVO ENTERO  KG",
+        "id": 185
+      },
+      {
+        "item": "COB. CHOCOLATE BLANCO MARQUETA TURIN 1 KG",
+        "id": 186
+      },
+      {
+        "item": "COB. CHOCOLATE SEMI AMARGO TURIN 1 KG",
+        "id": 187
+      },
+      {
+        "item": "COB.CHOCOLATE SEMI AMARGO TURIN 6 KG.",
+        "id": 188
+      },
+      {
+        "item": "COCKTEL DE FRUTAS EN ALMIBAR CORINA 820 GR.",
+        "id": 189
+      },
+      {
+        "item": "COCO RALLADURA PEQUEÑO 1 KG.",
+        "unidad": "KG",
+        "categoria": "Abarrote",
+        "precio": 78,
+        "id": 190
+      },
+      {
+        "item": "COCOA HERSHEYS 226 GRS",
+        "id": 191
+      },
+      {
+        "item": "COCOA NEGRA GERKENS 500 GRMS",
+        "id": 192
+      },
+      {
+        "item": "COCOA SICAO KG",
+        "unidad": "KG",
+        "categoria": "Abarrote",
+        "precio": 200,
+        "id": 193
+      },
+      {
+        "item": "COFFE MATE PORCION  C/200  4GRS",
+        "id": 194
+      },
+      {
+        "item": "COLORANTE AMARILLO 100 GR.",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 30.17,
+        "id": 195
+      },
+      {
+        "item": "COLORANTE AMARILLO NARANJA",
+        "id": 196
+      },
+      {
+        "item": "COLORANTE ROJO FRESA",
+        "id": 197
+      },
+      {
+        "item": "COLORANTE ROJO GROSELL LIQ. 120 ML.",
+        "id": 198
+      },
+      {
+        "item": "COLORANTE VERDE LIMON 100 GR.",
+        "id": 199
+      },
+      {
+        "item": "COLORANTE VERDE LIMON KG",
+        "id": 200
+      },
+      {
+        "item": "COMINO EN POLVO KG",
+        "id": 201
+      },
+      {
+        "item": "COMINO ENTERO KG.",
+        "id": 202
+      },
+      {
+        "item": "CONFITIERS SEMI AMARGO TURIN KG.",
+        "id": 203
+      },
+      {
+        "item": "CONSOME CAMARON KNORR 1.6 KG",
+        "id": 204
+      },
+      {
+        "item": "CONSOME DE POLLO KNOR SUIZA 3.800 KG",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 399,
+        "id": 205
+      },
+      {
+        "item": "CONSOME DE RES KNORR 1.6 KG",
+        "id": 206
+      },
+      {
+        "item": "CREMA ALPURA 900 ML",
+        "unidad": "Unidad",
+        "categoria": "Lacteos",
+        "precio": 66,
+        "id": 207
+      },
+      {
+        "item": "CREMA BATIDA LYNCOTT FCO 184 GR.",
+        "unidad": "Unidad",
+        "categoria": "Lacteos",
+        "precio": 66,
+        "id": 208
+      },
+      {
+        "item": "CREMA DE COCO CALAHUA 1 LT",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 51.75,
+        "id": 209
+      },
+      {
+        "item": "CREMA DE COCO CALAHUA 480 GRS",
+        "id": 210
+      },
+      {
+        "item": "CREMA P/BATIR LYNCOTT  .980 ML.",
+        "unidad": "Unidad",
+        "categoria": "Lacteos",
+        "precio": 97,
+        "id": 211
+      },
+      {
+        "item": "CUITLACOCHE  SAN MIGUEL 420GR.",
+        "id": 212
+      },
+      {
+        "item": "CUITLACOCHE LA COSTEÑA 380 G",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 53.62,
+        "id": 213
+      },
+      {
+        "item": "CUITLACOCHE MONTE BLANCO 420 GR.",
+        "id": 214
+      },
+      {
+        "item": "CURCUMA MPLIDA KG.",
+        "id": 215
+      },
+      {
+        "item": "CURRY MOLIDO KG.",
+        "id": 216
+      },
+      {
+        "item": "DASHIMOTO",
+        "id": 217
+      },
+      {
+        "item": "DATIL S/HUESO KG.",
+        "unidad": "KG",
+        "categoria": "Abarrote",
+        "precio": 90,
+        "id": 218
+      },
+      {
+        "item": "DULCE DE LECHE NESTLE  4.5 KG",
+        "id": 219
+      },
+      {
+        "item": "DURAZNOS LA COSTEÑA 820 G",
+        "id": 220
+      },
+      {
+        "item": "ELOTE DORADO ASTRA  3 KG",
+        "id": 221
+      },
+      {
+        "item": "ELOTE DORADO DEL MONTE 2.9",
+        "id": 222
+      },
+      {
+        "item": "ELOTE EN GRANO ASTRA 3 KG.",
+        "id": 223
+      },
+      {
+        "item": "ELOTE EN GRANO HERDEZ LATA 2.9 KG",
+        "id": 224
+      },
+      {
+        "item": "ELOTE EN GRANO INSTITUCIONAL LA HUERTA 2 KG",
+        "id": 225
+      },
+      {
+        "item": "ELOTE EN GRANO LA COSTEÑA  400GR.",
+        "id": 226
+      },
+      {
+        "item": "ELOTE ENTERO CONGELADO LA HUERTA 500GR",
+        "id": 227
+      },
+      {
+        "item": "ESCENCIA DE COCO LT. DEIMAN 0",
+        "id": 228
+      },
+      {
+        "item": "FECULA  DE TAPIOCA KG",
+        "unidad": "KG",
+        "categoria": "Abarrote",
+        "precio": 55,
+        "id": 229
+      },
+      {
+        "item": "FIDEO NO.0 .200 GM",
+        "id": 230
+      },
+      {
+        "item": "FLAN D´GARY 140 GR.",
+        "id": 231
+      },
+      {
+        "item": "FRIJOL BAYO LABRADOR 1 KG.",
+        "unidad": "KG",
+        "categoria": "Abarrote",
+        "precio": 29.16,
+        "id": 232
+      },
+      {
+        "item": "FRIJOL LABRADOR NEGRO 1 KG",
+        "unidad": "KG",
+        "categoria": "Abarrote",
+        "precio": 31.25,
+        "id": 233
+      },
+      {
+        "item": "FRIJOL NEGRO ORO VERDE VALLE  KG",
+        "id": 234
+      },
+      {
+        "item": "FRIJOLES BAYO ENTERO  LATA LA COSTEÑA 580 GRS",
+        "id": 235
+      },
+      {
+        "item": "FRIJOL PERUANO VERDE VALLE KG.",
+        "unidad": "KG",
+        "categoria": "Abarrote",
+        "precio": 71.4,
+        "id": 236
+      },
+      {
+        "item": "FRIJOLES REFRITOS LATA LA COSTEÑA 580 GRS",
+        "id": 237
+      },
+      {
+        "item": "FRIOS DE FRESA 1 LT",
+        "id": 238
+      },
+      {
+        "item": "FRIOS DE GUANABANA 1 LT",
+        "id": 239
+      },
+      {
+        "item": "FRIOS DE MARACUYA 1 LT",
+        "id": 240
+      },
+      {
+        "item": "FRUCTOSA KG",
+        "id": 241
+      },
+      {
+        "item": "GALLETA BOCADO DE DAMA 300 GR",
+        "id": 242
+      },
+      {
+        "item": "GALLETA OREO C/21 /114 GRS      2.394 KG",
+        "id": 243
+      },
+      {
+        "item": "GALLETAS GAMESA SALADITAS 200 PZAS 13 G",
+        "unidad": "Caja",
+        "categoria": "Abarrote",
+        "precio": 195,
+        "id": 244
+      },
+      {
+        "item": "GALLETAS MARIAS GAMESA 850 GRS",
+        "id": 245
+      },
+      {
+        "item": "GALLETAS SALMAS HORNEADAS 12 GR C/100",
+        "id": 246
+      },
+      {
+        "item": "GARBANZO HERDEZ  400GR",
+        "id": 247
+      },
+      {
+        "item": "GARBANZO KG.",
+        "id": 248
+      },
+      {
+        "item": "GARBANZOS CIDACOS EXTRA 570 GR",
+        "id": 249
+      },
+      {
+        "item": "GLUCOSA LIQUIDA LT",
+        "id": 250
+      },
+      {
+        "item": "GRANILLO DE  CHOCOLATE COLORES KG",
+        "id": 251
+      },
+      {
+        "item": "GRANOLA ESPECIAL TRIGUEÑA 1 KG.",
+        "id": 252
+      },
+      {
+        "item": "GRENETINA DUCHE 1 KG.",
+        "id": 253
+      },
+      {
+        "item": "GRENETINA EN LAMINA",
+        "id": 254
+      },
+      {
+        "item": "HABA PELADA 1 KG",
+        "id": 255
+      },
+      {
+        "item": "HARINA ALTA PROTEINA DE 25 KG",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 141,
+        "id": 256
+      },
+      {
+        "item": "HARINA DE ARROZ 3 ESTRELLAS 500 GR.",
+        "id": 257
+      },
+      {
+        "item": "HARINA DE ARROZ KG",
+        "id": 258
+      },
+      {
+        "item": "HARINA DE HOT CAKES GAMESA 850 GRS",
+        "id": 259
+      },
+      {
+        "item": "HARINA DE PASTEL PRONTO 500 GR",
+        "id": 260
+      },
+      {
+        "item": "HARINA DE TAPIOCA KG",
+        "id": 261
+      },
+      {
+        "item": "HARINA DE TRIGO 3 ESTRELLAS 1 KG",
+        "id": 262
+      },
+      {
+        "item": "HARINA DE TRIGO MODERNA 1 KG.",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 18.9,
+        "id": 263
+      },
+      {
+        "item": "HARINA ELIZONDO ALTA PROTEINA 44 KG",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 785,
+        "id": 264
+      },
+      {
+        "item": "HARINA HOJA DE PLATA",
+        "id": 265
+      },
+      {
+        "item": "HARINA HOT CAKES 3 ESTRELLAS 1 KG",
+        "id": 266
+      },
+      {
+        "item": "HARINA INTEGRAL KG 3 ESTRELLAS",
+        "id": 267
+      },
+      {
+        "item": "HARINA MAIZ MASECA KG",
+        "unidad": "KG",
+        "categoria": "Abarrote",
+        "precio": 17.5,
+        "id": 268
+      },
+      {
+        "item": "HARINA MASECA AZUL KG",
+        "id": 269
+      },
+      {
+        "item": "HARINA P/PASTEL BETTY CHOCOLATE FUDGE 432.GR",
+        "id": 270
+      },
+      {
+        "item": "HOJA DE LAUREL",
+        "id": 271
+      },
+      {
+        "item": "HUEVO CALVARIO",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 37.5,
+        "id": 272
+      },
+      {
+        "item": "JAMAICA NACIONAL KG.",
+        "id": 273
+      },
+      {
+        "item": "JAMAICA SUDAN KG.",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 148,
+        "id": 274
+      },
+      {
+        "item": "JARABE DE AGAVE 500 ML.",
+        "unidad": "",
+        "categoria": "Abarrote",
+        "precio": 90,
+        "id": 275
+      },
+      {
+        "item": "JARABE DELICIOSA TAMARINDO 700 ML.",
+        "id": 276
+      },
+      {
+        "item": "JARABE GRANADINA MADRILEÑA 1 LT.",
+        "id": 277
+      },
+      {
+        "item": "JARABE HORCHATA DELICIOSA 700 ML.",
+        "id": 278
+      },
+      {
+        "item": "JARABE HORCHATA SAN PEDRO 750 ML.",
+        "id": 279
+      },
+      {
+        "item": "JARABE NATURAL LA MADRILEÑA 1 LT.",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 49.21,
+        "id": 280
+      },
+      {
+        "item": "JITOMATE PELADO LATA",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 170,
+        "id": 281
+      },
+      {
+        "item": "JOLCA ACEITUNA PTO ASADO  300G",
+        "id": 282
+      },
+      {
+        "item": "JUGO DE ARANDANO DEL VALLE LT.",
+        "id": 283
+      },
+      {
+        "item": "JUGO DE ARANDANO OCEAN SPRAY LT.",
+        "unidad": "Unidad",
+        "categoria": "Jugos",
+        "precio": 20.42,
+        "id": 284
+      },
+      {
+        "item": "JUGO MAGGI 1.9 ML",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 356.25,
+        "id": 285
+      },
+      {
+        "item": "JUGO MAGGI 100 ML.",
+        "id": 286
+      },
+      {
+        "item": "JUGO MAGGI 800 ML",
+        "id": 287
+      },
+      {
+        "item": "KNORR SUIZA DE POLLO 3.8",
+        "id": 288
+      },
+      {
+        "item": "LA COSTEÑA ELOTE EN GRANO 410",
+        "id": 289
+      },
+      {
+        "item": "LECHE ALPURA 2000 BRICK LT.",
+        "id": 290
+      },
+      {
+        "item": "LECHE ALPURA DESLACTOSADA   1 LT.",
+        "unidad": "Unidad",
+        "categoria": "Lacteos",
+        "precio": 23.33,
+        "id": 291
+      },
+      {
+        "item": "LECHE ALPURA DESLACTOSADA LIGTH 1 LTO",
+        "unidad": "Unidad",
+        "categoria": "Lacteos",
+        "precio": 23.87,
+        "id": 292
+      },
+      {
+        "item": "LECHE CARNATION  CLAVEL EVAP. 375 ML.",
+        "unidad": "Unidad",
+        "categoria": "Lacteos",
+        "precio": 18,
+        "id": 293
+      },
+      {
+        "item": "LECHE CARNATION CLAVEL  1L",
+        "unidad": "Unidad",
+        "categoria": "Lacteos",
+        "precio": 44.2,
+        "id": 294
+      },
+      {
+        "item": "LECHE DE ALMENDRA GÜD 1 LTO",
+        "unidad": "Unidad",
+        "categoria": "Lacteos",
+        "precio": 41.91,
+        "id": 295
+      },
+      {
+        "item": "LECHE DE ALMENDRAS  NATURAL",
+        "id": 296
+      },
+      {
+        "item": "LECHE DE ARROZ LT",
+        "unidad": "Unidad",
+        "categoria": "Lacteos",
+        "precio": 30.91,
+        "id": 297
+      },
+      {
+        "item": "LECHE DE COCO CALAHUA 1 LT.",
+        "id": 298
+      },
+      {
+        "item": "LECHE LALA DESLACTOSADA LTO",
+        "unidad": "Unidad",
+        "categoria": "Lacteos",
+        "precio": 20.45,
+        "id": 299
+      },
+      {
+        "item": "LECHE LALA ENTERA 1 LTO",
+        "id": 300
+      },
+      {
+        "item": "LECHE LALA LIGHT  LTO",
+        "id": 301
+      },
+      {
+        "item": "LECHE NIDO BOTE",
+        "id": 302
+      },
+      {
+        "item": "LECHE NUTRILECHE 1 LTO.",
+        "unidad": "Unidad",
+        "categoria": "Lacteos",
+        "precio": 16.5,
+        "id": 303
+      },
+      {
+        "item": "LECHE SANTA CLARA  ENTERA 1 LTO",
+        "unidad": "Unidad",
+        "categoria": "Lacteos",
+        "precio": 21.6,
+        "id": 304
+      },
+      {
+        "item": "LECHE SANTA CLARA DESLACTOSADA LT",
+        "unidad": "Unidad",
+        "categoria": "Lacteos",
+        "precio": 22.3,
+        "id": 305
+      },
+      {
+        "item": "LECHE SANTA CLARA LT.",
+        "id": 306
+      },
+      {
+        "item": "LECHERA  LECHE CONDENSADA NESTLE 11 KG",
+        "unidad": "Unidad",
+        "categoria": "Lacteos",
+        "precio": 580,
+        "id": 307
+      },
+      {
+        "item": "LECHERA NESTLE 397 GR.",
+        "unidad": "Unidad",
+        "categoria": "Lacteos",
+        "precio": 22.68,
+        "id": 308
+      },
+      {
+        "item": "LENTEJA  500 GR.",
+        "id": 309
+      },
+      {
+        "item": "LENTEJA CHICA  KG.",
+        "id": 310
+      },
+      {
+        "item": "LEVADURA FRESCA  BARRA 400 GR",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 24,
+        "id": 311
+      },
+      {
+        "item": "LEVADURA NEVADA PZ",
+        "id": 312
+      },
+      {
+        "item": "LIMON EN POLVO  DESHIDRATADO INES 1 KG.",
+        "id": 313
+      },
+      {
+        "item": "LIMONERA 1 LT JUGO DE LIMON",
+        "id": 314
+      },
+      {
+        "item": "LIMONERA 1 LT JUGO DE LIMON",
+        "id": 315
+      },
+      {
+        "item": "LINAZA ENTERA",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 26,
+        "id": 316
+      },
+      {
+        "item": "LYCHEES DAYAT EN CONSERVA 567 GR.",
+        "id": 317
+      },
+      {
+        "item": "LYCHEES PULPA  NAT. 1 LT",
+        "id": 318
+      },
+      {
+        "item": "LYCHEES SAN MIGUEL 567 GR PZA.",
+        "id": 319
+      },
+      {
+        "item": "MACARRON GALLO 450GR",
+        "id": 320
+      },
+      {
+        "item": "MACHACA RANCHO CONTRERAS. 250 GR.",
+        "id": 321
+      },
+      {
+        "item": "MAIZ PALOMERO YELLOW PICK BRAUN  KG.",
+        "id": 322
+      },
+      {
+        "item": "MAIZ POZOLERO PRECOCIDO KG",
+        "id": 323
+      },
+      {
+        "item": "MAIZ S/CABEZA KG",
+        "id": 324
+      },
+      {
+        "item": "MAIZENA 750 GRM",
+        "id": 325
+      },
+      {
+        "item": "MAIZENA BULTO 25 KG",
+        "id": 326
+      },
+      {
+        "item": "MANDARINA MLORD  LATA 284  ML.",
+        "id": 327
+      },
+      {
+        "item": "MANGO EN CUBO  CONGELADO 500 KG.",
+        "id": 328
+      },
+      {
+        "item": "MANGO REBANADO LA COSTEÑA 800 GR",
+        "id": 329
+      },
+      {
+        "item": "MANTECA  INCA KG",
+        "id": 330
+      },
+      {
+        "item": "MANTEQUILLA GLORIA PORCIO 10 GR. C/8 KG",
+        "id": 331
+      },
+      {
+        "item": "MANTEQUILLA SIN SAL GLORIA 1 KG",
+        "unidad": "KG",
+        "categoria": "Lacteos",
+        "precio": 193,
+        "id": 332
+      },
+      {
+        "item": "manzana deshidratada",
+        "id": 333
+      },
+      {
+        "item": "MARGARINA FLEX ROJA",
+        "id": 334
+      },
+      {
+        "item": "MARIAS DORADAS 10/278 GR",
+        "id": 335
+      },
+      {
+        "item": "MAYONESA HELLMAN´S  REAL 3.8 LT.",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 330,
+        "id": 336
+      },
+      {
+        "item": "MAYONESA REAL HEINZ 12 G/500 SOBRES",
+        "id": 337
+      },
+      {
+        "item": "MAYONESA ROJA  INSTITUCIONAL MC 3.4 KG",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 245.5,
+        "id": 338
+      },
+      {
+        "item": "MAYONEZA C/LIMON  HEINZ 390  GR",
+        "id": 339
+      },
+      {
+        "item": "MEDIA CREMA  NESTLE 1 LT.",
+        "id": 340
+      },
+      {
+        "item": "MEDIA CREMA  NESTLE 225 ML.",
+        "id": 341
+      },
+      {
+        "item": "MEDIAS NOCHES WONDER C/8 PZA.",
+        "unidad": "Caja",
+        "categoria": "Abarrote",
+        "precio": 57,
+        "id": 342
+      },
+      {
+        "item": "MEJORANA ENTERA  KG.",
+        "id": 343
+      },
+      {
+        "item": "MERMELADA DE DURAZNO",
+        "id": 344
+      },
+      {
+        "item": "MERMELADA DE FRESA HEINZ 20GR. C/120 PZA.",
+        "id": 345
+      },
+      {
+        "item": "MEZCLA DE FRUTOS ROJOS 454 GR",
+        "id": 346
+      },
+      {
+        "item": "MIEL DE ABEJA CARLOTA",
+        "id": 347
+      },
+      {
+        "item": "MIEL HEINZ MAPLE 4.5KG",
+        "id": 348
+      },
+      {
+        "item": "MIEL KARO MAPLE 3.6 LT.",
+        "id": 349
+      },
+      {
+        "item": "MIEL KARO MAPLE 500 ML",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 54.75,
+        "id": 350
+      },
+      {
+        "item": "MIGUELITO POLVO 950 GR",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 69.4,
+        "id": 351
+      },
+      {
+        "item": "MISO EN PASTA 1 KG.",
+        "id": 352
+      },
+      {
+        "item": "MOLE EN POLVO ALMENDRADO 1 KG.",
+        "id": 353
+      },
+      {
+        "item": "MOLE VERDE POLVO KG.",
+        "id": 354
+      },
+      {
+        "item": "MOSTAZA DIJON FRENCH´S 340 GR.",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 51.1,
+        "id": 355
+      },
+      {
+        "item": "MOSTAZA EN POLVO   KG",
+        "id": 356
+      },
+      {
+        "item": "MOSTAZA HEINZ 368 GRS",
+        "id": 357
+      },
+      {
+        "item": "MOSTAZA MAILLE ANTIGUA 845 GRS",
+        "id": 358
+      },
+      {
+        "item": "MOSTAZA MCCK 3.85",
+        "id": 359
+      },
+      {
+        "item": "MOSTAZA SOBRE HEINZ C/200",
+        "id": 360
+      },
+      {
+        "item": "MOZTASA DIJON ORIJINAL  MAILLE",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 110,
+        "id": 361
+      },
+      {
+        "item": "NACHOS EN BOLSA",
+        "id": 362
+      },
+      {
+        "item": "NESCAFE 220GR",
+        "id": 363
+      },
+      {
+        "item": "NESCAFE BOTE 1 KG.",
+        "unidad": "Unidad",
+        "categoria": "Cafe",
+        "precio": 358.75,
+        "id": 364
+      },
+      {
+        "item": "NUEZ DE BRASIL",
+        "id": 365
+      },
+      {
+        "item": "NUEZ DE CASTILLA KG",
+        "id": 366
+      },
+      {
+        "item": "NUEZ DE LA INDIA S/SALADA KG",
+        "unidad": "KG",
+        "categoria": "Abarrote",
+        "precio": 168,
+        "id": 367
+      },
+      {
+        "item": "NUEZ DE LA INDIA SALADA KG",
+        "id": 368
+      },
+      {
+        "item": "NUEZ DE MACADAMIA ENT. KG",
+        "id": 369
+      },
+      {
+        "item": "NUEZ ENTERA BLANCA KG",
+        "id": 370
+      },
+      {
+        "item": "NUEZ GARAPIÑADA",
+        "id": 371
+      },
+      {
+        "item": "NUEZ PEDAZO CRIOLLO KG.",
+        "unidad": "KG",
+        "categoria": "Abarrote",
+        "precio": 186,
+        "id": 372
+      },
+      {
+        "item": "NUTELLA 650 GR.",
+        "id": 373
+      },
+      {
+        "item": "OREGANO ENTERO KG",
+        "unidad": "KG",
+        "categoria": "Abarrote",
+        "precio": 76,
+        "id": 374
+      },
+      {
+        "item": "OREO DE 729 GRS",
+        "id": 375
+      },
+      {
+        "item": "PAN  TOSTADO NATURAL MELBA  200G",
+        "id": 376
+      },
+      {
+        "item": "PAN BLANCO BIMBO 640GR",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 46,
+        "id": 377
+      },
+      {
+        "item": "PAN MOLIDO BOLILLO  KG.",
+        "id": 378
+      },
+      {
+        "item": "PANKO JAPONES 1 KG.",
+        "id": 379
+      },
+      {
+        "item": "PAPA GAJO SAZON A/COB 2.04 KG",
+        "id": 380
+      },
+      {
+        "item": "PAPAS CORTE RECTO 3/8  MC CAIN  2.27 KG",
+        "id": 381
+      },
+      {
+        "item": "PAPRIKA DULCE PIMENTON MCCORMICK 510 GRS",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 182.16,
+        "id": 382
+      },
+      {
+        "item": "PAQ.PAN PARA HOT DOG",
+        "id": 383
+      },
+      {
+        "item": "PASA KABORCA MEDIANA",
+        "id": 384
+      },
+      {
+        "item": "PASTA  MODERNA  VARIOS 200 GRS.",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 6.5,
+        "id": 385
+      },
+      {
+        "item": "PASTA FILLO STRUDEL 454G",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 94,
+        "id": 386
+      },
+      {
+        "item": "PASTA FUSILLI BARILLA 500 GR",
+        "id": 387
+      },
+      {
+        "item": "PASTA LASAGNE BARILLA 500 GRM.",
+        "id": 388
+      },
+      {
+        "item": "PASTA P/CHICHARRON MICHEL KG.",
+        "id": 389
+      },
+      {
+        "item": "PASTA PENNE RIGATE 500 GR BARILA",
+        "id": 390
+      },
+      {
+        "item": "PASTA SPAGUETI LA MODERNA 200 GRS",
+        "id": 391
+      },
+      {
+        "item": "PASTA SPAGUETTI MODERNA 200 GRM C/20",
+        "id": 392
+      },
+      {
+        "item": "PASTAFETUCCINE BERILLA 500 GR",
+        "id": 393
+      },
+      {
+        "item": "PEPINILLO AGRI REBANADO SAN MIGUEL 3.94 KG.",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 89,
+        "id": 394
+      },
+      {
+        "item": "PEPINILLO CAMPOMAR ESPEC. 345 GR.",
+        "id": 395
+      },
+      {
+        "item": "PEPITA GARAPIÑADA KG.",
+        "id": 396
+      },
+      {
+        "item": "PEPITA PELADA NACIONAL KG",
+        "id": 397
+      },
+      {
+        "item": "PILONCILLO KG",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 39,
+        "id": 398
+      },
+      {
+        "item": "PIMIENTA BLANCA CARMENSITA 50 GRMS",
+        "id": 399
+      },
+      {
+        "item": "PIMIENTA BLANCA ENTERA",
+        "id": 400
+      },
+      {
+        "item": "PIMIENTA CAYENA McCormic",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 160,
+        "id": 401
+      },
+      {
+        "item": "PIMIENTA CHINA",
+        "id": 402
+      },
+      {
+        "item": "PIMIENTA GORDA ENTERA KG.",
+        "id": 403
+      },
+      {
+        "item": "PIMIENTA NEGRA CHICA ENTERA KG",
+        "unidad": "KG",
+        "categoria": "Abarrote",
+        "precio": 90,
+        "id": 404
+      },
+      {
+        "item": "PIMIENTA NEGRA MOLIDA 510 GR. MCCORMICK RESTA.",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 216.36,
+        "id": 405
+      },
+      {
+        "item": "PIMIENTA ROJA CAYENNE PEPPER 453 G BADIA",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 160,
+        "id": 406
+      },
+      {
+        "item": "PIMIENTA ROJA MOLIDA BADIA 340 GR PZ",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 97,
+        "id": 407
+      },
+      {
+        "item": "PIMIENTA ROSA GRANEL",
+        "id": 408
+      },
+      {
+        "item": "PIMIENTO MORRON 390 GR. CAMPOAMOR",
+        "id": 409
+      },
+      {
+        "item": "PIMIENTO MORRON LA PASIEGA 780 GR.",
+        "id": 410
+      },
+      {
+        "item": "PIÑA EN REBANADA ASTRA 3 KG",
+        "id": 411
+      },
+      {
+        "item": "PIÑA EN TROZO CORINA 800 GRS",
+        "id": 412
+      },
+      {
+        "item": "PIÑON BLANCO KG",
+        "id": 413
+      },
+      {
+        "item": "PISTACHE NATURAL C/CASCARA",
+        "unidad": "KG",
+        "categoria": "Abarrote",
+        "precio": 210,
+        "id": 414
+      },
+      {
+        "item": "PISTACHE NATURAL S/CASCARA  KG",
+        "unidad": "KG",
+        "categoria": "Abarrote",
+        "precio": 313,
+        "id": 415
+      },
+      {
+        "item": "POLVO PARA HORNEAR REXAL 100 GR.",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 8.4,
+        "id": 416
+      },
+      {
+        "item": "PURE DE PAPA VERDE VALLE 2KG",
+        "id": 417
+      },
+      {
+        "item": "PURE DE TOMATE  S & W  (DEL MONTE LATA) 3 KG. PZA.",
+        "id": 418
+      },
+      {
+        "item": "PURE DE TOMATE DEL FUERTE 1 KG.",
+        "unidad": "KG",
+        "categoria": "Abarrote",
+        "precio": 25.4,
+        "id": 419
+      },
+      {
+        "item": "PURE TOMATE LA COSTEÑA 3KG.",
+        "id": 420
+      },
+      {
+        "item": "QUESO CHEDDAR HELMMANS  1 KG",
+        "id": 421
+      },
+      {
+        "item": "QUESO IBERICO SEMICURADO KG",
+        "id": 422
+      },
+      {
+        "item": "QUINOA BLANCA KG.",
+        "unidad": "KG",
+        "categoria": "Abarrote",
+        "precio": 53,
+        "id": 423
+      },
+      {
+        "item": "QUINOA ROJA KG.",
+        "id": 424
+      },
+      {
+        "item": "ROYAL POLVO 220G",
+        "id": 425
+      },
+      {
+        "item": "ROYAL POLVO PARA HORNEAR 454 GR",
+        "id": 426
+      },
+      {
+        "item": "SAL C/APIO MCCORMICK 104 GR",
+        "id": 427
+      },
+      {
+        "item": "SAL CON AJO MCKORNICK 1.16 KG",
+        "id": 428
+      },
+      {
+        "item": "SAL CON AJO PRAGNA 1.111",
+        "id": 429
+      },
+      {
+        "item": "SAL DE  GUSANO DE MAGUEY  KG.",
+        "id": 430
+      },
+      {
+        "item": "SAL DE COLIMA",
+        "id": 431
+      },
+      {
+        "item": "SAL DE FLOR GOURMET AIRES DEL CAMPO 250 GRS",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 70,
+        "id": 432
+      },
+      {
+        "item": "SAL DE GRANO ELEFANTE KG",
+        "id": 433
+      },
+      {
+        "item": "SAL DE GUSANO FRASCO",
+        "unidad": "KG",
+        "categoria": "Abarrote",
+        "precio": 110,
+        "id": 434
+      },
+      {
+        "item": "SAL DE LAVA PRAGNA 450 GR",
+        "id": 435
+      },
+      {
+        "item": "SAL HIMALAYA PRAGNA  1100G",
+        "id": 436
+      },
+      {
+        "item": "SAL HIMALAYA PRAGNA  500G",
+        "id": 437
+      },
+      {
+        "item": "SAL LA FINA BOTE 1 KG",
+        "id": 438
+      },
+      {
+        "item": "SAL LA FINA KG",
+        "unidad": "KG",
+        "categoria": "Abarrote",
+        "precio": 15,
+        "id": 439
+      },
+      {
+        "item": "SAL MALDON 250 GR",
+        "id": 440
+      },
+      {
+        "item": "SAL MANTEQUILLA 1 KG POP DEIMAN",
+        "id": 441
+      },
+      {
+        "item": "SAL MESA  FRAGATA",
+        "unidad": "KG",
+        "categoria": "Abarrote",
+        "precio": 10.25,
+        "id": 442
+      },
+      {
+        "item": "SAL SOL BOTE 1 KG",
+        "id": 443
+      },
+      {
+        "item": "SALSA BBQ HUNTS 650 G",
+        "id": 444
+      },
+      {
+        "item": "SALSA BBQ HUNTS GALÓN  4KG",
+        "unidad": "",
+        "categoria": "Salsas",
+        "precio": 236,
+        "id": 445
+      },
+      {
+        "item": "SALSA BOTANERA 1 LT",
+        "id": 446
+      },
+      {
+        "item": "SALSA BOTANERA 370 G",
+        "id": 447
+      },
+      {
+        "item": "SALSA BUFALO CLASICA 150 GR",
+        "id": 448
+      },
+      {
+        "item": "SALSA BUFFALO 990 ML",
+        "id": 449
+      },
+      {
+        "item": "SALSA CATSUP  HEINZ BOTE DE 1.13 KG.",
+        "unidad": "Unidad",
+        "categoria": "Salsas",
+        "precio": 34.7,
+        "id": 450
+      },
+      {
+        "item": "SALSA CATSUP COSTEÑA BOLSA 3 KG",
+        "id": 451
+      },
+      {
+        "item": "SALSA CATSUP DEL MONTE 3.8 KG. BOTE",
+        "id": 452
+      },
+      {
+        "item": "SALSA CATSUP EMBASA 1 LTO.",
+        "unidad": "Unidad",
+        "categoria": "Salsas",
+        "precio": 22.75,
+        "id": 453
+      },
+      {
+        "item": "SALSA CATSUP HEINZ 397 GRS",
+        "unidad": "Unidad",
+        "categoria": "Salsas",
+        "precio": 23.56,
+        "id": 454
+      },
+      {
+        "item": "SALSA CATSUP HEINZ SOBRE C/200 PZAS.",
+        "id": 455
+      },
+      {
+        "item": "SALSA CATSUP POUCH  HEINZ  DE 3 KG.",
+        "unidad": "Unidad",
+        "categoria": "Salsas",
+        "precio": 108.5,
+        "id": 456
+      },
+      {
+        "item": "SALSA CHIMAY AMARILLA 150 ML",
+        "id": 457
+      },
+      {
+        "item": "SALSA DE ANGUILA JUGOI 1 LT.",
+        "id": 458
+      },
+      {
+        "item": "SALSA DE PESCADO 700 ML.PZA.",
+        "id": 459
+      },
+      {
+        "item": "SALSA DE SOYA KIKOMAN",
+        "id": 460
+      },
+      {
+        "item": "SALSA DE SOYA KIKOMAN 1.89 ML.",
+        "id": 461
+      },
+      {
+        "item": "SALSA DE SOYA KIKOMAN BAJA EN SODIO",
+        "id": 462
+      },
+      {
+        "item": "SALSA EN POLVO TAJIN 142GR",
+        "id": 463
+      },
+      {
+        "item": "SALSA FRANK´S RED HOT ORIGINAL 3.78 LT",
+        "id": 464
+      },
+      {
+        "item": "SALSA HUICHOL 190 ML.",
+        "id": 465
+      },
+      {
+        "item": "SALSA INGLESA 145 ML. CROSSE BLACKWELL",
+        "unidad": "Unidad",
+        "categoria": "Salsas",
+        "precio": 29.75,
+        "id": 466
+      },
+      {
+        "item": "SALSA INGLESA CROSSE & BLACKWELL 1.9 M.L.",
+        "id": 467
+      },
+      {
+        "item": "SALSA INGLESA CROSSE & BLACKWELL 980 ML.",
+        "unidad": "Unidad",
+        "categoria": "Salsas",
+        "precio": 127,
+        "id": 468
+      },
+      {
+        "item": "SALSA JALAPEÑO HEINZ SOBRE C/500 PZA.",
+        "id": 469
+      },
+      {
+        "item": "SALSA KETCHUP HEINZ PORCION CAJA 1000 /9G",
+        "unidad": "Unidad",
+        "categoria": "Salsas",
+        "precio": 450,
+        "id": 470
+      },
+      {
+        "item": "SALSA OBSCURA DEMIGLASE KNORR 1.2 KG",
+        "id": 471
+      },
+      {
+        "item": "SALSA OBSCURA DEMIGLASE KNORR 4 KG",
+        "id": 472
+      },
+      {
+        "item": "SALSA SOYA KIKOMAN 1.89 LT",
+        "id": 473
+      },
+      {
+        "item": "SALSA SRIRACHA HUY FONG  793 GR.",
+        "unidad": "Unidad",
+        "categoria": "Salsas",
+        "precio": 188,
+        "id": 474
+      },
+      {
+        "item": "SALSA SRIRACHA HUY FONG 482 GR.",
+        "id": 475
+      },
+      {
+        "item": "SALSA TABASCO ROJA  DE 355 ML",
+        "id": 476
+      },
+      {
+        "item": "SALSA TABASCO ROJA DE 6O ML.",
+        "id": 477
+      },
+      {
+        "item": "SALSA TERIYAKI SAUCE 3.78 LT",
+        "id": 478
+      },
+      {
+        "item": "SALSA VALENTINA 370 GRS PZ",
+        "id": 479
+      },
+      {
+        "item": "SALSA VALENTINA COSTA BRAVA 4 LT",
+        "id": 480
+      },
+      {
+        "item": "SALSA VALENTINA EN SOBRE   900/10 GR.",
+        "unidad": "Unidad",
+        "categoria": "Salsas",
+        "precio": 330,
+        "id": 481
+      },
+      {
+        "item": "SALSA VALENTINA NEGRA 370 GRS PZA.",
+        "id": 482
+      },
+      {
+        "item": "SALSA VALENTINA ROJO 1 LTO",
+        "unidad": "Unidad",
+        "categoria": "Salsas",
+        "precio": 28.25,
+        "id": 483
+      },
+      {
+        "item": "SANTA CLARA C/6",
+        "id": 484
+      },
+      {
+        "item": "SAZONADOR ITALIANO MC KORMIC 177 GRS",
+        "id": 485
+      },
+      {
+        "item": "SEMILLA DE ALCARAVEA KG.",
+        "id": 486
+      },
+      {
+        "item": "SEMILLA DE ANIS",
+        "id": 487
+      },
+      {
+        "item": "SEMILLA DE APIO",
+        "id": 488
+      },
+      {
+        "item": "SEMILLA DE CILANTRO KG",
+        "id": 489
+      },
+      {
+        "item": "SEMILLA DE HINOJO KG",
+        "id": 490
+      },
+      {
+        "item": "SEMILLA DE ZATAR KG",
+        "id": 491
+      },
+      {
+        "item": "SEMILLA GIRASOL PELADO KG",
+        "id": 492
+      },
+      {
+        "item": "SEMILLA MOSTAZA KG",
+        "id": 493
+      },
+      {
+        "item": "SOPA MARUCHAN C/12",
+        "id": 494
+      },
+      {
+        "item": "SPAGUETTI BARILLA #5 500 GR",
+        "id": 495
+      },
+      {
+        "item": "SPAGUETTI BARILLA #7 500 GR",
+        "id": 496
+      },
+      {
+        "item": "TAHINI 900I ML PASTA",
+        "id": 497
+      },
+      {
+        "item": "TAJIN CLASICO C/LIMON GDE 400 GR",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 63,
+        "id": 498
+      },
+      {
+        "item": "TAJIN CLASICO C/LIMON GDE 907 GR",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 131,
+        "id": 499
+      },
+      {
+        "item": "TAMARINDO KG 1A. CORTES",
+        "id": 500
+      },
+      {
+        "item": "TAPIOCA KG.",
+        "unidad": "KG",
+        "categoria": "Abarrote",
+        "precio": 55,
+        "id": 501
+      },
+      {
+        "item": "TE DE LIMON MCC CON GR.25 CON 25 SOBRES",
+        "id": 502
+      },
+      {
+        "item": "TE DE MANZANA CANELA  1.4 GR. / 25 PZA.",
+        "unidad": "Caja",
+        "categoria": "Abarrote",
+        "precio": 40,
+        "id": 503
+      },
+      {
+        "item": "TE HIERBABUENA  MC CORNICK C/25 SOBRES",
+        "id": 504
+      },
+      {
+        "item": "TE MANZANILLA MC CORNICK 1.2 GR./ 25 PZA.",
+        "id": 505
+      },
+      {
+        "item": "TE MANZANILLA MC CORNICK C/25 SOBRES",
+        "id": 506
+      },
+      {
+        "item": "TE MATCHA NATURAL KG.",
+        "id": 507
+      },
+      {
+        "item": "TE NEGRO A GRANEL KG.",
+        "id": 508
+      },
+      {
+        "item": "TE NEGRO MC CORMICK 1.5 GR. / 25 PZA.",
+        "id": 509
+      },
+      {
+        "item": "TE TWININGS FRUTOS ROJOS 50 GR.",
+        "id": 510
+      },
+      {
+        "item": "TE TWININGS NEGRO  50 GR.",
+        "id": 511
+      },
+      {
+        "item": "TÉ VERDE MC CORNICK 1.2 GR/25 PZA.",
+        "unidad": "Caja",
+        "categoria": "Abarrote",
+        "precio": 36,
+        "id": 512
+      },
+      {
+        "item": "TECOJOTE KG.",
+        "id": 513
+      },
+      {
+        "item": "TOMATE DEHIDRATADO S/ MIGUEL 907 GR",
+        "id": 514
+      },
+      {
+        "item": "TOMATE DESHIDRATADO 340 GRM.",
+        "id": 515
+      },
+      {
+        "item": "TOMATE DESIDRATADO  DE 680 GRS",
+        "id": 516
+      },
+      {
+        "item": "TOMATE DESIDRATADO S/MIGUEL 850 GRS",
+        "id": 517
+      },
+      {
+        "item": "TOMILLO ENTERO  KG.",
+        "id": 518
+      },
+      {
+        "item": "TORTILLA DE HARINA TIA ROSA C/22  PZA.",
+        "id": 519
+      },
+      {
+        "item": "TOSTADA CHARRA PAQ.",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 25,
+        "id": 520
+      },
+      {
+        "item": "TOSTADAS BOTANERAS HORNASANAS PAQ. 250 G",
+        "id": 521
+      },
+      {
+        "item": "TOSTADAS CUADRADAS HORNASANAS PAQ. 250 G",
+        "id": 522
+      },
+      {
+        "item": "TOSTI NACHOS BARCEL 1 KG",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 55.56,
+        "id": 523
+      },
+      {
+        "item": "TUCAN DE HORCHATA PZA 1 LT.",
+        "id": 524
+      },
+      {
+        "item": "TUCAN DE HORCHATA PZA 750 ML.",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 50.51,
+        "id": 525
+      },
+      {
+        "item": "TUCAN DE JAMAICA PZA 1L.",
+        "id": 526
+      },
+      {
+        "item": "TUCAN DE MANDARINA PZA. 750 ML",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 47.5,
+        "id": 527
+      },
+      {
+        "item": "TUCAN DE MANGO PZA 750 ML.",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 50.91,
+        "id": 528
+      },
+      {
+        "item": "TUCAN DE TAMARINDO  PZA 750 ML.",
+        "id": 529
+      },
+      {
+        "item": "TUCAN FRESA PZA 1  LT.",
+        "id": 530
+      },
+      {
+        "item": "TUCAN MANGO 1 LT.",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 50.91,
+        "id": 531
+      },
+      {
+        "item": "TUCAN SABORES LTO",
+        "unidad": "Unidad",
+        "id": 532
+      },
+      {
+        "item": "UVA PASA AMARILLA KG",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 97,
+        "id": 533
+      },
+      {
+        "item": "VAINILLA CASTELLS 1 LT.",
+        "id": 534
+      },
+      {
+        "item": "VAINILLA DE PAPANTLA EXTRACTO NAT. 250 ML.",
+        "id": 535
+      },
+      {
+        "item": "VAINILLA PALAPA 1 LT",
+        "id": 536
+      },
+      {
+        "item": "VAINILLA POSA 1 TL",
+        "id": 537
+      },
+      {
+        "item": "VINAGRE BALSAMICO PIANELLO 1 LTO.",
+        "id": 538
+      },
+      {
+        "item": "VINAGRE BALSAMICO PIANELLO 5 LTO.",
+        "id": 539
+      },
+      {
+        "item": "VINAGRE BALSAMICO VILLA SANA 5 LT.",
+        "id": 540
+      },
+      {
+        "item": "VINAGRE BARRIL BCO 3,9 LT",
+        "id": 541
+      },
+      {
+        "item": "VINAGRE BCO COSTEÑA",
+        "id": 542
+      },
+      {
+        "item": "VINAGRE BLANCO BARRIL 750 ML.",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 22.5,
+        "id": 543
+      },
+      {
+        "item": "VINAGRE DE MANZANA BARRILITO 750 ML",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 22.5,
+        "id": 544
+      },
+      {
+        "item": "VINAGRE DE MANZANA COSTEÑA  3.7 LT.",
+        "unidad": "Unidad",
+        "categoria": "Abarrote",
+        "precio": 49.65,
+        "id": 545
+      },
+      {
+        "item": "VINAGRE DE SIDRA 250ML. PZA.",
+        "id": 546
+      },
+      {
+        "item": "VINAGRE DE VINO BLANCO PIONELO 500 ML.",
+        "id": 547
+      },
+      {
+        "item": "VINAGRE DE VINO BLANCO PIONELO 500 ML.",
+        "id": 548
+      },
+      {
+        "item": "VINAGRE DE VINO TINTO CARBONELL 250 ML.",
+        "id": 549
+      },
+      {
+        "item": "VINAGRE DE VINO TINTO PIANELLO 500ML",
+        "id": 550
+      },
+      {
+        "item": "VINAGRE DE VINO TINTO PIANELO 1 LT",
+        "id": 551
+      },
+      {
+        "item": "VINAGRE DE VINO TINTO VILLASANA 500 ML.",
+        "id": 552
+      },
+      {
+        "item": "VINAGRE VALSAMICO 5 L",
+        "id": 553
+      },
+      {
+        "item": "VINAGRE VINO BLANCO VILLA SANA 500 ML.",
+        "id": 554
+      },
+      {
+        "item": "VINO BLANCO CALIFORNIA 1 LT.",
+        "unidad": "Unidad",
+        "categoria": "Vinos",
+        "precio": 51.74,
+        "id": 555
+      },
+      {
+        "item": "VINO BLANCO CALIFORNIA GARRAFA 4 LT.",
+        "id": 556
+      },
+      {
+        "item": "VINO TINTO CALIFORNIA 1 LT.",
+        "unidad": "Unidad",
+        "categoria": "Vinos",
+        "precio": 40.88,
+        "id": 557
+      },
+      {
+        "item": "VINO TINTO CALIFORNIA GARRAFA 4 LT.",
+        "unidad": "Unidad",
+        "categoria": "Vinos",
+        "precio": 252.7,
+        "id": 558
+      },
+      {
+        "item": "ZANAHORIA EN ESCABECHE 230 GR",
+        "id": 559
+      },
+      {
+        "item": "ZUCARITAS KELLOGGS 710 GR.",
+        "unidad": "",
+        "categoria": "Abarrote",
+        "precio": 120,
+        "id": 560
+      },
+      {
+        "item": "CONSOME DE POLLO KNORR 1.5 KG",
+        "unidad": "",
+        "categoria": "Abarrote",
+        "precio": 135,
+        "id": 561
+      },
+      {
+        "item": "AZUCAR STANDAR EN SOBRE ZUCARMEX C/1000 PZA.",
+        "unidad": "",
+        "categoria": "Abarrote",
+        "precio": 191.36,
+        "id": 562
+      },
+      {
+        "item": "FRIJOL NEGRO ENTERO LATA 560 GR.",
+        "unidad": "",
+        "categoria": "Abarrote",
+        "precio": 12.89,
+        "id": 563
+      },
+      {
+        "item": "JARABE DE CURAZAO MADKA 1 LT",
+        "unidad": "",
+        "categoria": "Abarrote",
+        "precio": 90,
+        "id": 564
+      },
+      {
+        "item": "HARINA P/HOT CAKES AUNT JEMIMA 500 GR.",
+        "unidad": "",
+        "categoria": "Abarrote",
+        "precio": 49.8,
+        "id": 565
+      },
+      {
+        "item": "ACEITE AJONJOLI TOSTADO INES 250 ML",
+        "unidad": "",
+        "categoria": "Abarrote",
+        "precio": 62,
+        "id": 566
+      },
+      {
+        "item": "PULPA CHAMOY .950",
+        "unidad": "Caja",
+        "categoria": "Dulces",
+        "precio": 57.55,
+        "id": 567
+      },
+      {
+        "item": "PANDITAS RICOLINO 1 KG.",
+        "unidad": "Caja",
+        "categoria": "Dulces",
+        "precio": 82,
+        "id": 568
+      },
+      {
+        "item": "BOMBON GIGANTE BCO. /ROSA 5/30 PZA.",
+        "unidad": "Caja",
+        "categoria": "Dulces",
+        "precio": 85.16,
+        "id": 569
+      },
+      {
+        "item": "MAMUT 12/8/30 GRS",
+        "unidad": "Caja",
+        "categoria": "Dulces",
+        "precio": 41.5,
+        "id": 570
+      },
+      {
+        "item": "GALLETA WAFER CHOCOLATE PURITOS",
+        "unidad": "Caja",
+        "id": 571
+      },
+      {
+        "item": "CHOCOLATE M&M´S 24/6",
+        "unidad": "Caja",
+        "categoria": "Dulces",
+        "precio": 82.72,
+        "id": 572
+      },
+      {
+        "item": "MIGUELITO SABORES 950 GR.",
+        "unidad": "Caja",
+        "categoria": "Abarrote",
+        "precio": 69.12,
+        "id": 573
+      },
+      {
+        "item": "POLVORONES MARINELA",
+        "id": 574
+      },
+      {
+        "item": "GALLETA BOCADO DE DAMA MAC´MA",
+        "unidad": "Caja",
+        "categoria": "Dulces",
+        "precio": 59.38,
+        "id": 575
+      },
+      {
+        "item": "PALETA COOL NEON 24/24/ 336 GR",
+        "unidad": "Caja",
+        "categoria": "Dulces",
+        "precio": 61.81,
+        "id": 576
+      },
+      {
+        "item": "BANDERILLA DE TAMARINDO  12/20/40",
+        "id": 577
+      },
+      {
+        "item": "PALETA PEPINITO  300 GR 60 PZA.",
+        "id": 578
+      },
+      {
+        "item": "PANDITAS OSOS GUMMY",
+        "unidad": "Caja",
+        "categoria": "Dulces",
+        "precio": 74.51,
+        "id": 579
+      },
+      {
+        "item": "RAQUETA  ENCHILADA MIGUELITO 40 PZA. 800 GRS.",
+        "id": 580
+      },
+      {
+        "item": "TAMBORINES DULCE DE TAMARINDO",
+        "id": 581
+      },
+      {
+        "item": "MAZAPAN C/60 25 GRS",
+        "id": 582
+      },
+      {
+        "item": "MAZAPAN DE LA ROSA 20/30",
+        "unidad": "Caja",
+        "categoria": "Dulces",
+        "precio": 76.02,
+        "id": 583
+      },
+      {
+        "item": "GOMITAS ENCHILADAS GOOMYRIK  1KG",
+        "id": 584
+      },
+      {
+        "item": "GOMITAS GUMMY LUCKY 1 KG",
+        "id": 585
+      },
+      {
+        "item": "GOMITAS RIKOLINO",
+        "id": 586
+      },
+      {
+        "item": "MAZAPAN POLVO 908 GR.",
+        "id": 587
+      },
+      {
+        "item": "CHOCOLATE HERSHEY  LIQ. 589 GRM.",
+        "id": 588
+      },
+      {
+        "item": "GALLETA SURTIDO RICO GAMESA 12/436GR",
+        "id": 589
+      },
+      {
+        "item": "WAFER CHOCOLATE",
+        "id": 590
+      },
+      {
+        "item": "WAFER MANZANA CANELA",
+        "id": 591
+      },
+      {
+        "item": "WAFER STICK",
+        "id": 592
+      },
+      {
+        "item": "BARQUILLO CUÉTARA",
+        "id": 593
+      },
+      {
+        "item": "BARQUILLO CUÉTARA  FRESA",
+        "id": 594
+      },
+      {
+        "item": "CHOCOLATE LIQUIDO HERSHEY 3.4",
+        "unidad": "Caja",
+        "categoria": "Dulces",
+        "precio": 189.75,
+        "id": 595
+      },
+      {
+        "item": "PICA FRESA",
+        "id": 596
+      },
+      {
+        "item": "SKWINKLES",
+        "id": 597
+      },
+      {
+        "item": "OREO MINI",
+        "id": 598
+      },
+      {
+        "item": "OREO 10 COUNTL 21/114 GRS",
+        "unidad": "Caja",
+        "categoria": "Dulces",
+        "precio": 279.02,
+        "id": 599
+      },
+      {
+        "item": "BASE DE GALLETA",
+        "id": 600
+      },
+      {
+        "item": "CHURRITOS ENCHILADOS",
+        "id": 601
+      },
+      {
+        "item": "CIGARRO MALBORO ROJOS  C/10 PAQ. DE 20 PZAS",
+        "unidad": "Caja",
+        "categoria": "Dulces",
+        "precio": 642.25,
+        "id": 602
+      }
+    ]
+  }

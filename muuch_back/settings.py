@@ -19,6 +19,7 @@ load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+print(BASE_DIR)
 
 
 # Quick-start development settings - unsuitable for production
@@ -33,7 +34,7 @@ if os.getenv("DEBUG") == "True":
 else:
     DEBUG = False
 
-ALLOWED_HOSTS = ['rama-ws.com']
+ALLOWED_HOSTS = ['rama-ws.com', 'localhost']
 
 
 # Application definition
@@ -151,9 +152,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = '/assets/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'assets')
-STATICFILES_DIRS = (os.path.join(BASE_DIR, "assets"),)
+STATIC_URL = 'assets/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'assets/')
 
 
 MEDIA_URL = "/media/"
