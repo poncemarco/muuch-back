@@ -7,7 +7,10 @@ class ItemSerializer(serializers.ModelSerializer):
     price = serializers.FloatField()
     
     def get_image(self, obj):
-        return str(obj.images.first().image_path) if obj.images.first() else None
+        image = obj.images.first()
+        if image:
+            return self.context['request'].build_absolute_uri(image.image_path.url)
+        return None
     
     class Meta:
         model = Item
