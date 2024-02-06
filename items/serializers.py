@@ -5,6 +5,10 @@ from files.serializers import ImageSerializer
 class ItemSerializer(serializers.ModelSerializer):
     image = serializers.SerializerMethodField()
     price = serializers.FloatField()
+    category = serializers.SerializerMethodField()
+    
+    def get_category(self, obj):
+        return obj.category.name
     
     def get_image(self, obj):
         image = obj.images.first()
