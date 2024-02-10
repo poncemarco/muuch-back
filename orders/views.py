@@ -14,8 +14,11 @@ class OrderViewSet(RetrieveModelMixin, UpdateModelMixin, CreateModelMixin, views
 
     def create(self, request, *args, **kwargs):
         items = request.data.pop('items')
+        name = request.data.pop('name')
+        email = request.data.pop('email')
+        phone = request.data.pop('phone')
+        outter_items = request.data.pop('outterItems')
         order_items = []
-        print(items)
         order = Order.objects.create()
 
         for item_data in items:
@@ -24,12 +27,10 @@ class OrderViewSet(RetrieveModelMixin, UpdateModelMixin, CreateModelMixin, views
 
         ItemOrder.objects.bulk_create(order_items)
         order.items.add(*order_items) 
-        manager = TicketManager(order)
+        manager = TicketManager(order, email, name, phone, outter_items)
         pdf_created = manager.create_pdf()
-        print(pdf_created)
         manager.send_ticket()
         ticket = Ticket.objects.create(order=order, pdf_file=manager.ticket_path)
         order.ticket.set([ticket])
-        
         return Response(OrderSerializer(order).data)
         

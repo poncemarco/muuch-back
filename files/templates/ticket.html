@@ -1,19 +1,78 @@
+{% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ticket de Compra</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-    <h1>Ticket de Compra</h1>
+<body class="bg-gray-100">
+    <div class="max-w-xl mx-auto p-8 bg-white rounded-lg shadow-md">
+        <h1 class="text-3xl font-semibold mb-4">Ticket de Compra</h1>
+        
+        <!-- Información del Cliente -->
+        <div class="mb-6">
+            <h2 class="text-xl font-semibold mb-2">Información del Cliente</h2>
+            <p><strong>Nombre:</strong> {{ name }}</p>
+            <p><strong>Correo Electrónico:</strong> {{ client_email }}</p>
+            <p><strong>Teléfono:</strong> {{ phone }}</p>
+        </div>
 
-    {% for item in items %}
-        <p class="text-black">{{ item.item.name }} x {{ item.quantity }}</p>
-        <p class="text-black">Costo: ${{ item.item.price }}</p>
-    {% endfor %}
+        <!-- Detalles de los Productos -->
+        <div>
+            <h2 class="text-xl font-semibold mb-2">Detalles de los Productos</h2>
+            <table class="w-full mb-4">
+                <thead>
+                    <tr>
+                        <th class="px-4 py-2">#</th>
+                        <th class="px-4 py-2">Nombre</th>
+                        <th class="px-4 py-2">Precio</th>
+                        <th class="px-4 py-2">Cantidad</th>
+                        <th class="px-4 py-2">Subtotal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for producto in items %}
+                    <tr>
+                        <td class="border px-4 py-2" style="text-align: center;">{{ forloop.counter }}</td>
+                        <td class="border px-4 py-2" style="text-align: center;">{{ producto.item.name }}</td>
+                        <td class="border px-4 py-2" style="text-align: center;">{{ producto.item.price }}</td>
+                        <td class="border px-4 py-2" style="text-align: center;">{{ producto.quantity }}</td>
+                        <td class="border px-4 py-2" style="text-align: center;">{{ producto.get_total_item_price }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        <!-- Detalles de los Productos -->
+        <div>
+            <h2 class="text-xl font-semibold mb-2">Detalles de los Productos fuera del Catálogo</h2>
+            <table class="w-full mb-4">
+                <thead>
+                    <tr>
+                        <th class="px-4 py-2">#</th>
+                        <th class="px-4 py-2">Nombre</th>
+                        <th class="px-4 py-2">Cantidad</th>
+                        <th class="px-4 py-2">Detalles</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for outter_item in outter_items %}
+                    <tr>
+                        <td class="border px-4 py-2" style="text-align: center;">{{ forloop.counter }}</td>
+                        <td class="border px-4 py-2" style="text-align: center;">{{ outter_item.name }}</td>
+                        <td class="border px-4 py-2" style="text-align: center;">{{ outter_item.description}}</td>
+                        <td class="border px-4 py-2" style="text-align: center;">{{ outter_item.quantityDescription }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
 
-    <p>Total: ${{ total }}</p>
+        <!-- Total de la Compra -->
+        <div class="text-right">
+            <p class="text-xl font-semibold">Total: {{ total }}</p>
+        </div>
+    </div>
 </body>
 </html>
