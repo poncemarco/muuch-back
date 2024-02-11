@@ -1,5 +1,5 @@
 from rest_framework import viewsets
-from .models import Order
+from .models import Order, DiscountCode
 from .serializers import OrderSerializer
 from rest_framework.response import Response
 from items.models import ItemOrder, Item    
@@ -18,8 +18,14 @@ class OrderViewSet(RetrieveModelMixin, UpdateModelMixin, CreateModelMixin, views
         email = request.data.pop('email')
         phone = request.data.pop('phone')
         outter_items = request.data.pop('outterItems')
+        discount = None
+        if 'couppon' in request.data:
+            try:
+                discount = DiscountCode.objects.get(code=request.data['couppon'])
+            except DiscountCode.DoesNotExist:
+                pass
         order_items = []
-        order = Order.objects.create()
+        order = Order.objects.create(discount=discount)
 
         for item_data in items:
             item = get_object_or_404(Item, id=item_data['id'])

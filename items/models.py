@@ -10,6 +10,9 @@ class Item(models.Model):
     unit = models.CharField(max_length=50, null=True, blank=True)
     category = models.ForeignKey('Category', on_delete=models.SET_NULL, null=True, blank=True)
     
+    def price_display(self):
+        return float(self.price) * 1.2
+        
     class Meta:
         verbose_name_plural = 'Productos'
         verbose_name = 'Producto'
@@ -23,7 +26,7 @@ class ItemOrder(models.Model):
     quantity = models.PositiveBigIntegerField()
     
     def get_total_item_price(self):
-        return self.quantity * self.item.price
+        return self.quantity * self.item.price_display()
     
     def __str__(self):
         return f"{self.quantity} of {self.item.name}"

@@ -4,8 +4,11 @@ from files.serializers import ImageSerializer
 
 class ItemSerializer(serializers.ModelSerializer):
     image = serializers.SerializerMethodField()
-    price = serializers.FloatField()
+    price = serializers.SerializerMethodField()
     category = serializers.SerializerMethodField()
+    
+    def get_price(self, obj):
+        return obj.price_display()
     
     def get_category(self, obj):
         return obj.category.name

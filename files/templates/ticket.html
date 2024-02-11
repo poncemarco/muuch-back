@@ -36,15 +36,16 @@
                     <tr>
                         <td class="border px-4 py-2" style="text-align: center;">{{ forloop.counter }}</td>
                         <td class="border px-4 py-2" style="text-align: center;">{{ producto.item.name }}</td>
-                        <td class="border px-4 py-2" style="text-align: center;">{{ producto.item.price }}</td>
+                        <td class="border px-4 py-2" style="text-align: center;">{{ producto.item.price|floatformat:2}}</td>
                         <td class="border px-4 py-2" style="text-align: center;">{{ producto.quantity }}</td>
-                        <td class="border px-4 py-2" style="text-align: center;">{{ producto.get_total_item_price }}</td>
+                        <td class="border px-4 py-2" style="text-align: center;">{{ producto.get_total_item_price|floatformat:2 }}</td>
                     </tr>
                     {% endfor %}
                 </tbody>
             </table>
         </div>
         <!-- Detalles de los Productos -->
+        {% if outter_items %}
         <div>
             <h2 class="text-xl font-semibold mb-2">Detalles de los Productos fuera del Catálogo</h2>
             <table class="w-full mb-4">
@@ -68,10 +69,14 @@
                 </tbody>
             </table>
         </div>
+        {% endif %}
 
         <!-- Total de la Compra -->
         <div class="text-right">
-            <p class="text-xl font-semibold">Total: {{ total }}</p>
+            {% if discount %}
+            <p class="text-xl font-semibold">Descuento: {{ discount|floatformat:2 }}</p>
+            {% endif %}
+            <p class="text-xl font-semibold">Total: {{ total|floatformat:2 }}</p>
         </div>
     </div>
 </body>
