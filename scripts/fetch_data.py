@@ -15,6 +15,8 @@ def run():
             category, created = Category.objects.get_or_create(name=item['categoria'])
             item['categoria'] = category
             item_, _ = Item.objects.get_or_create(name=item['productos'], category=item['categoria'], price=item['precio'])
+            item_.unit = item['unidad'] if 'unidad' in item else "pieza"
+            item_.save()
             if _:
                 print(f"Item {item['productos']} created")
     print("Finalizado")
