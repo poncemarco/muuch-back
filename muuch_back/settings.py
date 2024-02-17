@@ -34,7 +34,7 @@ if os.getenv("DEBUG") == "True":
 else:
     DEBUG = False
 
-ALLOWED_HOSTS = ['rama-ws.com', 'localhost']
+ALLOWED_HOSTS = ['rama-ws.com', 'localhost', 'muuch-maaya.com']
 
 
 # Application definition
