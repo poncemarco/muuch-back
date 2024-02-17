@@ -1,17 +1,42 @@
 from items.models import Item
+import os
+import urllib.parse
+from files.models import Image
+
 
 def run():
-    items = Item.objects.all()
-    for item in items:
-        try:
-            if not item.images.exists():
-                name = item.name.replace(" ", "+").replace("/", "-").replace(".", "_")
-                item.images.create(image_path=f"images/products_images/{name} Background Removed.png")
-                print(f"Imagen para {item.name} creada")
+    items = Item.objects.filter(images__isnull=False)
+    items_no_images = Item.objects.filter(images__isnull=True)
+    images_database = [urllib.parse.unquote_plus(item.images.all().first().image_path.url.split("/")[4]) for item in items]
+    
+    errors = []
+    create = []
+    files = os.listdir("media/images/products_images")
+    files = [file.replace("+", " ").replace("-", "/").replace("_", ".") for file in files]
+    for file in files:
+        if file not in images_database:
+            item = items_no_images.filter(name=file.replace(" Background Removed.png", ""))
+            if item.exists() and item.first().main_image:
+                file_name = file.replace(" ", "+").replace("+Background+Removed.png", "").replace("/", "-").replace(".", "_") + " Background Removed.png"
+                image = Image.objects.create(
+                    item=item.first(),
+                    image_path=f"images/products_images/{file_name}")
+                create.append(f"Image {file} created")
+                continue
             else:
-                pass
-        except:
-            print(f"Imagen para {item.name} no encontrada")
-            
-            
-    print("Finalizado")
+                item = items_no_images.filter(name=file.replace(" Background Removed.png", "") + ".")
+                if item.exists():
+                    file_name = file.replace(" ", "+").replace("/", "-").replace(".", "_") + "."
+                    try:
+                        image = Image.objects.create(item=item.first(), image_path=f"images/products_images/{file_name}")
+                        create.append(f"Image {file} created")
+                        continue
+                    except FileNotFoundError:
+                        errors.append(f"Item {file_name} not found")
+        
+                        
+                
+        
+       
+        
+    print(f"errors {errors}, create {create}")

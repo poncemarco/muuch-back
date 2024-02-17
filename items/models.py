@@ -12,6 +12,9 @@ class Item(models.Model):
     
     def price_display(self):
         return float(self.price) * 1.2
+    
+    def main_image(self):
+        return self.images.first()
         
     class Meta:
         verbose_name_plural = 'Productos'
