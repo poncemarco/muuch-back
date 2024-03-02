@@ -26,17 +26,13 @@ def run():
             else:
                 item = items_no_images.filter(name=file.replace(" Background Removed.png", "") + ".")
                 if item.exists():
-                    file_name = file.replace(" ", "+").replace("/", "-").replace(".", "_") + "."
+                    file_name = file.replace(" Background Removed.png", "").replace(" ", "+").replace("/", "-").replace(".png", "").replace(".", "_") + " Background Removed.png"
+                    print(file_name)
                     try:
-                        image = Image.objects.create(item=item.first(), image_path=f"images/products_images/{file_name}")
+                        Image.objects.create(item=item.first(), image_path=f"images/products_images/{file_name}")
                         create.append(f"Image {file} created")
                         continue
                     except FileNotFoundError:
-                        errors.append(f"Item {file_name} not found")
-        
+                        errors.append(f"Item {file_name} not found")  
                         
-                
-        
-       
-        
     print(f"errors {errors}, create {create}")

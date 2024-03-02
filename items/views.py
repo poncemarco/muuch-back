@@ -4,7 +4,7 @@ from .serializers import ItemSerializer, RequestItemSerializer
 from .paginators import ItemPaginator
 
 class ItemViewSet(viewsets.ModelViewSet):
-    queryset = Item.objects.filter(images__isnull=False).distinct().order_by('?')
+    queryset = Item.objects.filter(images__isnull=False).distinct().order_by('category').order_by('name')
     serializer_class = ItemSerializer
     pagination_class= ItemPaginator
     

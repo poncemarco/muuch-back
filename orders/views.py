@@ -2,7 +2,7 @@ from rest_framework import viewsets
 from .models import Order, DiscountCode
 from .serializers import OrderSerializer
 from rest_framework.response import Response
-from items.models import ItemOrder, Item    
+from items.models import ItemOrder, Item, RequestItem
 from rest_framework.mixins import RetrieveModelMixin, UpdateModelMixin, CreateModelMixin
 from django.shortcuts import get_object_or_404
 from files.models import Ticket
@@ -32,11 +32,13 @@ class OrderViewSet(RetrieveModelMixin, UpdateModelMixin, CreateModelMixin, views
             order_items.append(ItemOrder(item=item, quantity=item_data['quantity']))
 
         ItemOrder.objects.bulk_create(order_items)
+        outter_items_to_create = [RequestItem(name=item['name'], description_quanity=item['quantityDescription'], description=item['description']) for item in outter_items]
+        RequestItem.objects.bulk_create(outter_items_to_create)
         order.items.add(*order_items) 
         manager = TicketManager(order, email, name, phone, outter_items)
-        pdf_created = manager.create_pdf()
+        manager.create_excel()
         manager.send_ticket()
-        ticket = Ticket.objects.create(order=order, pdf_file=manager.ticket_path)
-        order.ticket.set([ticket])
+       #ticket = Ticket.objects.create(order=order, pdf_file=manager.ticket_path)
+        #order.ticket.set([ticket])
         return Response(OrderSerializer(order).data)
         

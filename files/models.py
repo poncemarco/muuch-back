@@ -20,6 +20,7 @@ class Image(models.Model):
         blank=True,
         null=True
     )
+    
     class Meta:
         verbose_name = 'Imagen'
         verbose_name_plural = 'Imagenes'

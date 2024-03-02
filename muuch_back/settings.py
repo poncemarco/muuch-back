@@ -19,7 +19,6 @@ load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-print(BASE_DIR)
 
 
 # Quick-start development settings - unsuitable for production
@@ -29,11 +28,7 @@ print(BASE_DIR)
 SECRET_KEY = 'django-insecure-39d@cf4*q3$wz^k4dvmuzdq38y-y@*n!m^vq-o&cbs!=-^@8q0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-if os.getenv("DEBUG") == "True":
-    DEBUG = True
-else:
-    DEBUG = False
-
+DEBUG = os.getenv("DEBUG")
 ALLOWED_HOSTS = ['rama-ws.com', 'localhost', 'muuch-maaya.com']
 
 
@@ -97,18 +92,22 @@ CORS_ALLOW_ALL_ORIGINS = True
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 if DEBUG:
     DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': BASE_DIR / 'db.sqlite3',
+        'default' : {
+            "ENGINE": "django.db.backends.postgresql",
+            "NAME": "catalog",
+            "USER": "root",
+            "PASSWORD": "Changoadmin27!",
+            "HOST": "rama-ws.com",
+            "PORT": "",
         }
     }
 else:
     DATABASES = {
         'default' : {
             "ENGINE": "django.db.backends.postgresql",
-            "NAME": "muuch_back",
-            "USER": "marco_cap",
-            "PASSWORD": "X0u6iUwNqCgJmfhIkyOQn5tY1DR0OYlV2THk",
+            "NAME": "catalog",
+            "USER": "root",
+            "PASSWORD": "Changoadmin27!",
             "HOST": "localhost",
             "PORT": "",
         }
@@ -216,7 +215,10 @@ VERSATILEIMAGEFIELD_RENDITION_KEY_SETS = {
     ],
     'headshot': [
         ('headshot_small', 'crop__150x175'),
-    ]
+    ],
+    'thumbnail': [
+        ('thumbnail', 'thumbnail__100x100'),
+    ],
 }
 
 

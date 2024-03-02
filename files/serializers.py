@@ -4,7 +4,12 @@ from versatileimagefield.serializers import VersatileImageFieldSerializer
 
 
 class ImageSerializer(serializers.ModelSerializer):
-    image_path = VersatileImageFieldSerializer("primary_image_detail")
+    image_path = VersatileImageFieldSerializer(
+        sizes = [
+            ('primary', 'url'),
+            ('thumbnail', 'thumbnail__100x100'),
+        ]
+    )
     class Meta:
         model = Image
-        fields = 'image_path'
+        fields = ['image_path']

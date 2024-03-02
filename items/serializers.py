@@ -16,7 +16,7 @@ class ItemSerializer(serializers.ModelSerializer):
     def get_image(self, obj):
         image = obj.images.first()
         if image:
-            return self.context['request'].build_absolute_uri(image.image_path.url)
+            return ImageSerializer(image).data
         return None
     
     class Meta:

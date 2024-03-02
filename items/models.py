@@ -11,6 +11,8 @@ class Item(models.Model):
     category = models.ForeignKey('Category', on_delete=models.SET_NULL, null=True, blank=True)
     
     def price_display(self):
+        if self.category == 'Cristaleria':
+            return float(self.price) * 1.3
         return float(self.price) * 1.2
     
     def main_image(self):
@@ -26,10 +28,10 @@ class Item(models.Model):
     
 class ItemOrder(models.Model):
     item = models.ForeignKey(Item, on_delete=models.CASCADE)
-    quantity = models.PositiveBigIntegerField()
+    quantity = models.DecimalField(max_digits=10, decimal_places=2)
     
     def get_total_item_price(self):
-        return self.quantity * self.item.price_display()
+        return float(self.quantity) * self.item.price_display()
     
     def __str__(self):
         return f"{self.quantity} of {self.item.name}"
