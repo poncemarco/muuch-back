@@ -26,13 +26,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-39d@cf4*q3$wz^k4dvmuzdq38y-y@*n!m^vq-o&cbs!=-^@8q0'
-
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.getenv("DEBUG")
-print(DEBUG)
+DEBUG = "User" in str(BASE_DIR)
 ALLOWED_HOSTS = ['rama-ws.com', 'localhost', 'muuch-maaya.com']
-
-
 # Application definition
 
 INSTALLED_APPS = [

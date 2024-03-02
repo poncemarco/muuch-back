@@ -15,7 +15,7 @@ class ItemPaginator(pagination.PageNumberPagination):
                 'count': self.page.paginator.count,
                 'total_pages': self.page.paginator.num_pages,
                 'current_page': self.page.number,
-                'page_size': self.page_size,
+                'page_size': self.page.paginator.per_page,
             },
             'results': data
         }
