@@ -240,7 +240,7 @@ EMAIL_PORT = 587
 EMAIL_HOST_USER = "info@muuch-maaya.com"
 EMAIL_HOST_PASSWORD = os.getenv("EMAIL_PASSWORD")
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_USE_TLS = False
+EMAIL_USE_TLS = DEBUG
 
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 SUPPORT_EMAIL = "maarco.app98@gmail.com"
