@@ -6,6 +6,7 @@ class ItemSerializer(serializers.ModelSerializer):
     image = serializers.SerializerMethodField()
     price = serializers.SerializerMethodField()
     category = serializers.SerializerMethodField()
+    slug = serializers.SerializerMethodField()
     
     def get_price(self, obj):
         return obj.price_display()
@@ -19,9 +20,12 @@ class ItemSerializer(serializers.ModelSerializer):
             return ImageSerializer(image).data
         return None
     
+    def get_slug(self, obj):
+        return obj.slug()
+    
     class Meta:
         model = Item
-        fields = ["id" ,"name", "unit", "category", "price", "image" ]
+        fields = ["id" ,"name", "unit", "category", "price", "image", "slug"]
         
 class ItemOrderSerializer(serializers.ModelSerializer):
     item = ItemSerializer()

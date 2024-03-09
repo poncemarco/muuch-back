@@ -17,6 +17,9 @@ class Item(models.Model):
     
     def main_image(self):
         return self.images.first()
+    
+    def slug(self):
+        return self.name.lower().replace(' ', '-').replace('á', 'a').replace('é', 'e').replace('í', 'i').replace('ó', 'o').replace('ú', 'u').replace('/', ('_'))
         
     class Meta:
         verbose_name_plural = 'Productos'
