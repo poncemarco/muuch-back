@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Item, RequestItem, ItemOrder
+from .models import Item, RequestItem, ItemOrder, Category
 from files.serializers import ImageSerializer
 
 class ItemSerializer(serializers.ModelSerializer):
@@ -37,4 +37,15 @@ class RequestItemSerializer(serializers.ModelSerializer):
     class Meta:
         model = RequestItem
         fields = "__all__"
+        
+        
+class CategorySerializer(serializers.ModelSerializer):
+    number_of_items = serializers.SerializerMethodField()
+    
+    def get_number_of_items(self, obj):
+        return obj.item_set.count()
+    
+    class Meta:
+        model = Category
+        fields = ["id", "name", "number_of_items"]
         
