@@ -3,7 +3,7 @@ from django.template.loader import render_to_string
 from django.core.mail import EmailMultiAlternatives
 from django.utils.html import strip_tags
 import pandas as pd
-import io
+import io, requests
 
 class TicketManager:
 
@@ -120,3 +120,18 @@ class TicketManager:
         msg.attach_alternative(html_content, "text/html")
         msg.attach(f"ticket_{self.order.id}.xlsx", self.excel.getvalue(), "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
         msg.send()
+        
+        
+def check_postal_code(postal_code: str) -> dict:
+    url = "https://api.tau.com.mx/dipomex/v1/codigo_postal?APIKEY=7e8367808c341fd35f03170c75e420daa36e606e&cp=03430"
+
+    payload = {}
+    headers = {
+    'APIKEY': '7e8367808c341fd35f03170c75e420daa36e606e'
+    }
+    
+    response = requests.request("GET", url, headers=headers, data=payload)
+    if response.status_code == 200:
+        return response.json()
+    
+    

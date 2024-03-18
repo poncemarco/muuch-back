@@ -1,6 +1,6 @@
 from rest_framework import serializers
 from .models import Item, RequestItem, ItemOrder, Category
-from files.serializers import ImageSerializer
+from files.serializers import ImageSerializer, CategoryImageSerializer
 
 class ItemSerializer(serializers.ModelSerializer):
     image = serializers.SerializerMethodField()
@@ -41,6 +41,13 @@ class RequestItemSerializer(serializers.ModelSerializer):
         
 class CategorySerializer(serializers.ModelSerializer):
     number_of_items = serializers.SerializerMethodField()
+    image = serializers.SerializerMethodField()
+    
+    def get_image(self, obj):
+        image = obj.category_image.first()
+        if image:
+            return CategoryImageSerializer(image).data
+        return None
     
     def get_number_of_items(self, obj):
         return obj.item_set.count()

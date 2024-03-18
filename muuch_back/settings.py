@@ -32,6 +32,9 @@ ALLOWED_HOSTS = ['rama-ws.com', 'localhost', 'muuch-maaya.com']
 # Application definition
 
 INSTALLED_APPS = [
+    #admin styles
+    'jazzmin',
+    
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -44,13 +47,14 @@ INSTALLED_APPS = [
     'django_extensions',
     'corsheaders',
     'django_filters',
+    'versatileimagefield',
     
     #apps
     'items',
     'orders',
     'payments',
     'files',
-    'versatileimagefield'
+    'locations',
     
 ]
 
