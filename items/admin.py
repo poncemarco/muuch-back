@@ -1,15 +1,19 @@
 from django.contrib import admin
 from .models import Item, ItemOrder, RequestItem, Category
-from django.utils.html import format_html
+from django.utils.safestring import mark_safe
 from files.admin import ImageAdmin
+from django.db import models
 # Register your models here.
 
 class ItemAdmin(admin.ModelAdmin):
     search_fields = ['name']  
-    inlines = [ImageAdmin]
+    empty_value_display = "-"
+    fields = ["name", "unit", "price", "category", "apply_tax_iva", "image_tag"]
+    list_display = ["name", "price", "category", "unit", "price_display_admin"]
+    readonly_fields = ["image_tag"]
+    
+        
 
 admin.site.register(Item, ItemAdmin)
-
-admin.site.register(ItemOrder)
 admin.site.register(RequestItem)
 admin.site.register(Category)

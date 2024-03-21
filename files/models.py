@@ -22,9 +22,13 @@ class Image(models.Model):
         null=True
     )
     
+    
     class Meta:
         verbose_name = 'Imagen'
         verbose_name_plural = 'Imagenes'
+        
+    def link(self):
+        return "https://rama-media.s3.us-east-2.amazonaws.com/casa-maya{}".format(self.image_path.url)
 
     def __str__(self):
         return self.item.name + " - " + str(self.id)
