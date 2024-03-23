@@ -29,7 +29,7 @@ class Item(models.Model):
         if self.category == 'Cristaleria':
             result = round(float(self.price) * 1.2, 2)
             return '{:.2f}'.format(result)
-        return '{:.2f}'.format(round(float(self.price) * 1.2, 2))
+        return float('{:.2f}'.format(round(float(self.price) * 1.2, 2)))
     
     def main_image(self):
         return self.images.first()
