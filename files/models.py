@@ -7,7 +7,7 @@ class Image(models.Model):
     item = models.ForeignKey('items.Item', on_delete=models.CASCADE, related_name='images')
     image_path = VersatileImageField(
         'Image',
-        upload_to='images/products_images/',
+        upload_to='casa-maya/media/images/products_images/',
         width_field='width',
         height_field='height'
     )
@@ -28,7 +28,10 @@ class Image(models.Model):
         verbose_name_plural = 'Imagenes'
         
     def link(self):
-        return "https://rama-media.s3.us-east-2.amazonaws.com/casa-maya{}".format(self.image_path.url)
+        string_list = self.image_path.url.split("/")
+        print(string_list)
+        string_list[3] = "casa-maya/media/images"
+        return "/".join(string_list)
 
     def __str__(self):
         return self.item.name + " - " + str(self.id)
