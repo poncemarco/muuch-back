@@ -40,7 +40,7 @@ class Item(models.Model):
         
     @admin.display(description="Imagen")
     def image_tag(self):
-        return mark_safe('<img src="{}" width="150" height="150" />'.format(self.main_image().link()))
+        return mark_safe('<a href="https://rama-ws.com/admin/files/image/{}/change/"><img src="{}" width="150" height="150" /></a>'.format(self.main_image().pk ,self.main_image().link()))
      
     class Meta:
         verbose_name_plural = 'Productos'
