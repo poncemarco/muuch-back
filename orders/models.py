@@ -11,13 +11,16 @@ class Order(models.Model):
     def get_total(self):
         if self.discount and self.discount.active:
             discount_factor = Decimal(str(self.discount.discount_factor))  # Convertir a Decimal
-            return sum([item.get_total_item_price() * float(discount_factor) for item in self.items.all()])
-        return sum([item.get_total_item_price() for item in self.items.all()])
+            return round(sum([item.get_total_item_price() * float(discount_factor) for item in self.items.all()]), 2)
+        return round(sum([item.get_total_item_price() for item in self.items.all()]), 2)
+    
+    def get_total_items(self):
+        return int(sum([item.quantity for item in self.items.all()]))
     
     def get_discount(self):
         if self.discount and self.discount.active:
             discount_factor = Decimal(str(self.discount.discount_factor))  # Convertir a Decimal
-            return sum([item.get_total_item_price() * (1 - float(discount_factor)) for item in self.items.all()])
+            return round(sum([item.get_total_item_price() * (1 - float(discount_factor)) for item in self.items.all()]), 2)
     
     class Meta:
         verbose_name_plural = 'Ordenes'
