@@ -12,7 +12,9 @@ class ItemSerializer(serializers.ModelSerializer):
         return obj.price_display()
     
     def get_category(self, obj):
-        return obj.category.name
+        if obj.category:
+            return obj.category.name
+        return "Sin categoria"
     
     def get_image(self, obj):
         image = obj.images.first()

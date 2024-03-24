@@ -64,4 +64,4 @@ class CategoryImage(models.Model):
         verbose_name_plural = 'Imagenes de Categoria'
 
     def __str__(self):
-        return self.item.name + " - " + str(self.id)
+        return self.category.name + " - " + str(self.id)

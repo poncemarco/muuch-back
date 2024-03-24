@@ -17,8 +17,7 @@ class ImageSerializer(serializers.ModelSerializer):
 class CategoryImageSerializer(serializers.ModelSerializer):
     image_path = VersatileImageFieldSerializer(
         sizes = [
-            ('primary', 'url'),
-            ('thumbnail', 'thumbnail__100x100'),
+            ('primary', 'url')
         ]
     )
     class Meta:
