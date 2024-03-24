@@ -273,3 +273,32 @@ TWILIO_ACCOUNT_SID = os.getenv("TWILIO_ACCOUNT_SID")
 TWILIO_AUTH_TOKEN = os.getenv("TWILIO_AUTH_TOKEN")
 
 
+
+
+
+ADMINS = [
+    ('Marco Ponce', 'marco.ponce@rama-ws.com'),
+]
+
+
+# Email erros: 
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'mail_admins': {
+            'level': 'ERROR',
+            'class': 'django.utils.log.AdminEmailHandler',
+            'include_html': True,  # Incluye el error como HTML en el correo electrónico
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['mail_admins'],
+            'level': 'ERROR',
+            'propagate': True,
+        },
+    },
+}
+
+
