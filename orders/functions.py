@@ -79,7 +79,7 @@ class TicketManager:
             "Producto" : [item.item.name for item in self.order.items.all()],
             "Valor unitario" : [float(item.item.price) for item in self.order.items.all()],
             "Descuento" : [float(item.item.price) * self.order.discount.discount_factor if self.order.discount else  item.item.price for item in self.order.items.all()],
-            "IVA" : [float(item.item.price) * 0.16 for item in self.order.items.all()],
+            "IVA" : [float(item.item.price) * 0.16 if item.item.apply_tax_iva else 0 for item in self.order.items.all()],
             "Importe" : [item.get_total_item_price() for item in self.order.items.all()]
         }
         
@@ -142,16 +142,35 @@ def check_postal_code(postal_code: str) -> dict:
 
 
 class WhatsappManager:
-    def __init__(self):
+    def __init__(self, order, name, phone):
+        self.order = order
+        self.client = name
+        self.phone = phone
         self.number = ""
-        self.client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
+        self.sms_client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
+        
+    def create_message(self, order):
+        message = f"""
+        Hola {self.client}, tu pedido ha sido registrado con éxito. 
+        Aquí está el detalle de tu pedido:
+        Folio: {order.id}
+        {order.get_total_items()} productos
+        Total: {order.get_total()}
+        {f"Descuento: {order.get_discount()}" if order.discount else ""}
+        En un momento nos pondremos en contacto contigo para confirmar tu pedido.
+        
+        Gracias por tu compra.
+        """
+        return message
+        
         
         
     def send_whatsapp(self):
-        message = self.client.messages.create(
+        body = self.create_message(self.order)
+        message = self.sms_client.messages.create(
             from_='+19194393990',
-            body='Aqui esta tu pedido \n https://muuch-maaya.com/pedido/1/',
-            to='+5215546476943'
+            body= body,
+            to='+521' + self.phone
         )
         
     

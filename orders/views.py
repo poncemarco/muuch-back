@@ -38,9 +38,9 @@ class OrderViewSet(RetrieveModelMixin, UpdateModelMixin, CreateModelMixin, views
         RequestItem.objects.bulk_create(outter_items_to_create)
         order.items.add(*order_items) 
         manager = TicketManager(order, email, name, phone, outter_items, address)
+        whatsappManager = WhatsappManager(order, name, phone)
+        whatsappManager.send_whatsapp()
         manager.create_excel()
         manager.send_ticket()
-        #ticket = Ticket.objects.create(order=order, pdf_file=manager.ticket_path)
-        #order.ticket.set([ticket])
         return Response(OrderSerializer(order).data)
         
