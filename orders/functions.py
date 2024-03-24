@@ -4,11 +4,13 @@ from django.core.mail import EmailMultiAlternatives
 from django.utils.html import strip_tags
 import pandas as pd
 import io, requests
+from twilio.rest import Client
+from muuch_back.settings import TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN
 
 class TicketManager:
 
-    def __init__(self, order, client_email, name, phone, outter_items, code: str = None) -> None:
-        self.to_email = ['marco@muuch-maaya.com', 'ventas@muuch-maaya.com']
+    def __init__(self, order, client_email, name, phone, outter_items, address, code: str = None) -> None:
+        self.to_email = ['marco@muuch-maaya.com', 'ventas@muuch-maaya.com', "marco.ponce@rama-ws.com"]
         self.header = "Nuevo pedido"
         self.from_email = 'info@muuch-maaya.com'
         self.message = "Se ha realizado un nuevo pedido"
@@ -16,10 +18,10 @@ class TicketManager:
         self.order = order
         self.name = name
         self.phone = phone
+        self.address = address
         self.client_email = client_email
         self.outter_items = outter_items
         self.context = self.create_context()
-        self.ticket_path = f'media/pdfs/ticket_{self.order.id}.pdf'
         self.code = code
         self.excel = io.BytesIO()
         
@@ -43,7 +45,7 @@ class TicketManager:
             "Unidad" : [item.item.unit for item in self.order.items.all()],
             "Producto" : [item.item.name for item in self.order.items.all()],
             "Valor unitario" : [float(item.item.price) for item in self.order.items.all()],
-            "Descuento" : [float(item.item.price) * self.order.discount.discount_factor if self.order.discount else  item.item.price for item in self.order.items.all()],
+            "Descuento" : [float(item.item.price) * self.order.discount.discount_factor if self.order.discount else  0 for item in self.order.items.all()],
             "IVA" : [float(item.item.price) * 0.16 for item in self.order.items.all()],
             "Importe" : [item.get_total_item_price() for item in self.order.items.all()]
         }
@@ -51,7 +53,8 @@ class TicketManager:
         info_custumer = {
             "Nombre" : [self.name],
             "Correo" : [self.client_email],
-            "Telefono" : [self.phone]
+            "Telefono" : [self.phone],
+            "Direccion" : [self.address]
         }
         
         df_products = pd.DataFrame(products)
@@ -83,7 +86,8 @@ class TicketManager:
         info_custumer = {
             "Nombre" : [self.name],
             "Correo" : [self.client_email],
-            "Telefono" : [self.phone]
+            "Telefono" : [self.phone],
+            "Direccion" : [self.address]
         }
         
         if self.outter_items:
@@ -127,11 +131,28 @@ def check_postal_code(postal_code: str) -> dict:
 
     payload = {}
     headers = {
-    'APIKEY': '7e8367808c341fd35f03170c75e420daa36e606e'
+        'APIKEY': '7e8367808c341fd35f03170c75e420daa36e606e'
     }
     
     response = requests.request("GET", url, headers=headers, data=payload)
     if response.status_code == 200:
         return response.json()
+    
+    
+
+
+class WhatsappManager:
+    def __init__(self):
+        self.number = ""
+        self.client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
+        
+        
+    def send_whatsapp(self):
+        message = self.client.messages.create(
+            from_='+19194393990',
+            body='Aqui esta tu pedido \n https://muuch-maaya.com/pedido/1/',
+            to='+5215546476943'
+        )
+        
     
     
