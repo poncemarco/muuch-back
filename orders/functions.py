@@ -153,10 +153,10 @@ class WhatsappManager:
         message = f"""
         Hola {self.client}, tu pedido ha sido registrado con éxito. 
         Aquí está el detalle de tu pedido:
-        Folio: {order.id}
-        {order.get_total_items()} productos
-        Total: {order.get_total()}
-        {f"Descuento: {order.get_discount()}" if order.discount else ""}
+        Folio: #{order.id}
+        Productos: {order.get_total_items()} 
+        Total: {order.get_total()} $
+        {f"Descuento: {order.get_discount()}$" if order.discount else ""}
         En un momento nos pondremos en contacto contigo para confirmar tu pedido.
         
         Gracias por tu compra.
