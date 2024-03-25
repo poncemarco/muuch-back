@@ -84,6 +84,13 @@ class Category(models.Model):
     name = models.CharField(max_length=100)
     description = models.TextField(null=True, blank=True)
     
+    
+    def get_items(self):
+        return Item.objects.filter(category=self)
+    
+    def get_items_count(self):
+        return Item.objects.filter(category=self).count()
+    
     class Meta:
         verbose_name_plural = 'Categorias'
         verbose_name = 'Categoria'
