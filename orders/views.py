@@ -38,8 +38,9 @@ class OrderViewSet(RetrieveModelMixin, UpdateModelMixin, CreateModelMixin, views
         RequestItem.objects.bulk_create(outter_items_to_create)
         order.items.add(*order_items) 
         manager = TicketManager(order, email, name, phone, outter_items, address)
-        whatsappManager = WhatsappManager(order, name, phone)
-        whatsappManager.send_whatsapp()
+        if phone == '5546476943':
+            whatsappManager = WhatsappManager(order, name, phone)
+            whatsappManager.send_whatsapp()
         manager.create_excel()
         manager.send_ticket()
         return Response(OrderSerializer(order).data)
