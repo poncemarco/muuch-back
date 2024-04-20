@@ -5,7 +5,6 @@ from rest_framework.response import Response
 from items.models import ItemOrder, Item, RequestItem
 from rest_framework.mixins import RetrieveModelMixin, UpdateModelMixin, CreateModelMixin
 from django.shortcuts import get_object_or_404
-from files.models import Ticket
 from .functions import TicketManager
 from orders.functions import WhatsappManager
 from django.contrib.auth.models import User

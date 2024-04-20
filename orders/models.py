@@ -1,9 +1,10 @@
 from django.db import models
 from decimal import Decimal
+from django.contrib.auth.models import User
 
 # Create your models here.
 class Order(models.Model):
-    # user = models.ForeignKey(User, on_delete=models.CASCADE)
+    user = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True, verbose_name='Usuario')
     items = models.ManyToManyField('items.ItemOrder', verbose_name='Productos')
     payment = models.ForeignKey('payments.Payment', on_delete=models.SET_NULL, null=True, blank=True, verbose_name='Pago')
     discount = models.ForeignKey('DiscountCode', on_delete=models.SET_NULL, null=True, blank=True, verbose_name='Cupon')
