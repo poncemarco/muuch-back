@@ -1,21 +1,18 @@
 from django.contrib import admin
-from .models import Order
 from django.contrib import admin
 from .models import Order, DiscountCode
-from files.models import Ticket
+
 # Register your models here.
 
 
-class TicketInline(admin.TabularInline):
-    model = Ticket
-
-@admin.register(Order)
 class OrderAdmin(admin.ModelAdmin):
-    inlines = [TicketInline]
+    search_fields = ['payment__payment_id']
+    empty_value_display = "-"
+    list_display = ["get_total", "get_total_items", "get_discount", "discount"]
+    readonly_fields = ["get_total", "get_total_items", "get_discount"]
+
     
-@admin.register(DiscountCode)
-class DiscountCodeAdmin(admin.ModelAdmin):
-    model = DiscountCode
+admin.site.register(Order, OrderAdmin)
     
 
 

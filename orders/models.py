@@ -4,9 +4,9 @@ from decimal import Decimal
 # Create your models here.
 class Order(models.Model):
     # user = models.ForeignKey(User, on_delete=models.CASCADE)
-    items = models.ManyToManyField('items.ItemOrder')
-    payment = models.ForeignKey('payments.Payment', on_delete=models.SET_NULL, null=True, blank=True)
-    discount = models.ForeignKey('DiscountCode', on_delete=models.SET_NULL, null=True, blank=True)
+    items = models.ManyToManyField('items.ItemOrder', verbose_name='Productos')
+    payment = models.ForeignKey('payments.Payment', on_delete=models.SET_NULL, null=True, blank=True, verbose_name='Pago')
+    discount = models.ForeignKey('DiscountCode', on_delete=models.SET_NULL, null=True, blank=True, verbose_name='Cupon')
     
     def get_total(self):
         if self.discount and self.discount.active:
