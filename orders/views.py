@@ -24,7 +24,7 @@ class OrderViewSet(RetrieveModelMixin, UpdateModelMixin, CreateModelMixin, views
         phone = request.data.pop('phone')
         outter_items = request.data.pop('outterItems')
         address = request.data.pop('address')
-        user, is_new_user = User.objects.get_of_create(email=email, username=email)
+        user, is_new_user = User.objects.get_or_create(email=email, username=email)
         Phone.objects.get_or_create(user=user, phone=phone)
         zone = Zones.objects.filter(neighborhood__name=address['neighborhood']).first()
         if zone:
