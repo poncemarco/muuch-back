@@ -9,7 +9,8 @@ from .functions import TicketManager
 from orders.functions import WhatsappManager
 from django.contrib.auth.models import User
 from users.models import Phone, Address
-from locations.models import Zones
+from locations.models import Zones, Neighborhood
+from users.functions import set_name
 
 
 class OrderViewSet(RetrieveModelMixin, UpdateModelMixin, CreateModelMixin, viewsets.GenericViewSet):
@@ -23,11 +24,18 @@ class OrderViewSet(RetrieveModelMixin, UpdateModelMixin, CreateModelMixin, views
         phone = request.data.pop('phone')
         outter_items = request.data.pop('outterItems')
         address = request.data.pop('address')
+        print(address)
         user, is_new_user = User.objects.get_or_create(email=email, username=email)
+        if is_new_user:
+            first_name, last_name = set_name(name)
+            user.first_name = first_name
+            user.last_name = last_name
+            user.save()
         Phone.objects.get_or_create(user=user, phone=phone)
-        zone = Zones.objects.filter(neighborhood__name=address['neighborhood']).first()
+        zone = Zones.objects.filter(postal_code=address["postalCode"]).first()
+        neighborhood = Neighborhood.objects.filter(name=address['neighborhood']).first()
         if zone:
-            Address.objects.get_or_create(user=user, street=address['street'],  zone=zone, particular_reference=address['complement'])
+            Address.objects.get_or_create(user=user, street=address['street'],  zone=zone, particular_reference=address['complement'], neighborhood=neighborhood)
         discount = None
         if 'couppon' in request.data:
             try:
