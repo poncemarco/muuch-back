@@ -287,6 +287,10 @@ LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
     'handlers': {
+        'console': {
+            'level': 'INFO',  # Cambia el nivel a INFO para ver mensajes de nivel INFO y superior en la consola
+            'class': 'logging.StreamHandler',
+        },
         'mail_admins': {
             'level': 'ERROR',
             'class': 'django.utils.log.AdminEmailHandler',
@@ -295,11 +299,10 @@ LOGGING = {
     },
     'loggers': {
         'django': {
-            'handlers': ['mail_admins'],
+            'handlers': ['console', 'mail_admins'],  # Agrega 'console' para que los mensajes de nivel INFO se muestren en la consola
             'level': 'ERROR',
             'propagate': True,
         },
     },
 }
-
 

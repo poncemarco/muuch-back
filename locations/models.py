@@ -11,7 +11,7 @@ class Zones(models.Model):
     postal_code = models.CharField(max_length=5)
     state = models.CharField(max_length=50)
     county = models.CharField(max_length=50)
-    neighborhood = models.ForeignKey(Neighborhood, on_delete=models.SET_NULL, null=True, related_name='zones')
+    #neighborhood = models.ForeignKey(Neighborhood, on_delete=models.SET_NULL, null=True, related_name='zones')
     
     def __str__(self):
         return self.postal_code
