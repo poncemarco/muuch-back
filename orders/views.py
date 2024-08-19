@@ -22,9 +22,8 @@ class OrderViewSet(RetrieveModelMixin, UpdateModelMixin, CreateModelMixin, views
         name = request.data.pop('name')
         email = request.data.pop('email')
         phone = request.data.pop('phone')
-        outter_items = request.data.pop('outterItems')
+        outer_items = request.data.pop('outterItems')
         address = request.data.pop('address')
-        print(address)
         user, is_new_user = User.objects.get_or_create(email=email, username=email)
         if is_new_user:
             first_name, last_name = set_name(name)
@@ -37,9 +36,9 @@ class OrderViewSet(RetrieveModelMixin, UpdateModelMixin, CreateModelMixin, views
         if zone:
             Address.objects.get_or_create(user=user, street=address['street'],  zone=zone, particular_reference=address['complement'], neighborhood=neighborhood)
         discount = None
-        if 'couppon' in request.data:
+        if 'coupon' in request.data:
             try:
-                discount = DiscountCode.objects.get(code=request.data['couppon'])
+                discount = DiscountCode.objects.get(code=request.data['coupon'])
             except DiscountCode.DoesNotExist:
                 pass
         order_items = []
@@ -50,14 +49,14 @@ class OrderViewSet(RetrieveModelMixin, UpdateModelMixin, CreateModelMixin, views
             order_items.append(ItemOrder(item=item, quantity=item_data['quantity']))
 
         ItemOrder.objects.bulk_create(order_items)
-        outter_items_to_create = [RequestItem(name=item['name'], description_quanity=item['quantityDescription'], description=item['description']) for item in outter_items]
-        RequestItem.objects.bulk_create(outter_items_to_create)
+        outer_items_to_create = [RequestItem(name=item['name'], description_quanity=item['quantityDescription'], description=item['description']) for item in outer_items]
+        RequestItem.objects.bulk_create(outer_items_to_create)
         order.items.add(*order_items) 
-        manager = TicketManager(order, email, name, phone, outter_items, address)
-        if phone == '5546476943':
-            whatsappManager = WhatsappManager(order, name, phone)
-            whatsappManager.send_whatsapp()
-        manager.create_excel()
-        manager.send_ticket()
+        # manager = TicketManager(order, email, name, phone, outer_items, address)
+        # if phone == '5546476943':
+        #     whatsappManager = WhatsappManager(order, name, phone)
+        #     whatsappManager.send_whatsapp()
+        # manager.create_excel()
+        # manager.send_ticket()
         return Response(OrderSerializer(order).data)
         

@@ -9,7 +9,7 @@ def check_postal_code(postal_code: str) -> dict:
         'APIKEY': '7e8367808c341fd35f03170c75e420daa36e606e'
     }
     response = requests.request("GET", url, headers=headers, data=payload)
-    print(response)
+    print(response.get)
     if response.status_code == 200:
         return response.json()
     raise Exception("Error in the request")
