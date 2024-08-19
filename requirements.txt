@@ -41,6 +41,7 @@ jsonschema==4.19.0
 mercadopago==2.2.3
 psycopg2-binary==2.9.5
 pydantic==1.10.7
+numpy==2.1.0
 python-dotenv==1.0.0
 pytz==2023.3
 redis==4.5.1
