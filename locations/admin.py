@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Zones
+from .models import Zone
 
 # Register your models here.
 class ZonesAdmin(admin.ModelAdmin):
@@ -8,4 +8,4 @@ class ZonesAdmin(admin.ModelAdmin):
     list_filter = ('state', 'county')
     
     
-admin.site.register(Zones, ZonesAdmin)
+admin.site.register(Zone, ZonesAdmin)

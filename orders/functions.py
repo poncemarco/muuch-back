@@ -10,7 +10,7 @@ from muuch_back.settings import TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN
 class TicketManager:
 
     def __init__(self, order, client_email, name, phone, outter_items, address, code: str = None) -> None:
-        self.to_email = ['marco@muuch-maaya.com', 'ventas@muuch-maaya.com', "marco.ponce@rama-ws.com"]
+        self.to_email = ['marco@muuch-maaya.com']
         self.header = "Nuevo pedido"
         self.from_email = 'info@muuch-maaya.com'
         self.message = "Se ha realizado un nuevo pedido"

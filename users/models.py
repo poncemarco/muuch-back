@@ -1,7 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
 from django_extensions.db.models import TimeStampedModel
-from locations.models import Zones, Neighborhood
+from locations.models import Zone, Neighborhood
 
 # Create your models here.
 class Phone(TimeStampedModel):
@@ -18,7 +18,7 @@ class Phone(TimeStampedModel):
         
 class Address(TimeStampedModel):
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='addresses')
-    zone = models.ForeignKey(Zones, on_delete=models.CASCADE)
+    zone = models.ForeignKey(Zone, on_delete=models.CASCADE)
     street = models.CharField(max_length=50)
     neighborhood = models.ForeignKey(Neighborhood, on_delete=models.SET_NULL, null=True)
     particular_reference = models.CharField(max_length=254, blank=True, null=True)

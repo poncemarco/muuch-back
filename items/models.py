@@ -11,8 +11,9 @@ class Item(models.Model):
     description = models.TextField(null=True, blank=True, verbose_name='Descripción')
     price = models.DecimalField(max_digits=10, decimal_places=2, null=True, blank=True, verbose_name='Precio')
     unit = models.CharField(max_length=50, null=True, blank=True, verbose_name='Unidad')
-    category = models.ForeignKey('Category', on_delete=models.SET_NULL, null=True, blank=True, verbose_name='Categoría')
+    category = models.ForeignKey('Category', on_delete=models.SET_NULL, null=True, blank=True, verbose_name='Categoría', related_name='items')
     apply_tax_iva = models.BooleanField(default=False, verbose_name='Aplica IVA')
+    external_id = models.CharField(max_length=100, null=True, blank=True, verbose_name='ID Externo')
     
     
     @property
@@ -20,10 +21,13 @@ class Item(models.Model):
         description="Precio de venta"
     )
     def price_display_admin(self):
-        if self.category == 'Cristaleria':
-            result = round(float(self.price) * 1.2, 2)
-            return '{:.2f}'.format(result)
-        return '{:.2f}'.format(round(float(self.price) * 1.2, 2))
+        try:
+            if self.category == 'Cristaleria':
+                result = round(float(self.price) * 1.2, 2)
+                return '{:.2f}'.format(result)
+            return '{:.2f}'.format(round(float(self.price) * 1.2, 2))
+        except:
+            return None
     
     def price_display(self):
         if self.category == 'Cristaleria':
@@ -40,6 +44,8 @@ class Item(models.Model):
         
     @admin.display(description="Imagen")
     def image_tag(self):
+        if not self.main_image():
+            return None
         return mark_safe('<a href="https://rama-ws.com/admin/files/image/{}/change/"><img src="{}" width="150" height="150" /></a>'.format(self.main_image().pk ,self.main_image().link()))
      
     class Meta:

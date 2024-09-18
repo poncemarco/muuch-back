@@ -33,8 +33,14 @@ ALLOWED_HOSTS = ['rama-ws.com', 'localhost', 'muuch-maaya.com', '161.35.236.111'
 
 INSTALLED_APPS = [
     #admin styles
-    'jazzmin',
     'image_uploader_widget',
+    "unfold",  # before django.contrib.admin
+    "unfold.contrib.filters",  # optional, if special filters are needed
+    "unfold.contrib.forms",  # optional, if special form elements are needed
+    "unfold.contrib.inlines",  # optional, if special inlines are needed
+    "unfold.contrib.import_export",  # optional, if django-import-export package is used
+    "unfold.contrib.guardian",  # optional, if django-guardian package is used
+    "unfold.contrib.simple_history",  # optional, if django-simple-history package is used
     
     'django.contrib.admin',
     'django.contrib.auth',
@@ -251,7 +257,7 @@ DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 TWILIO_ACCOUNT_SID = os.getenv("TWILIO_ACCOUNT_SID")
 TWILIO_AUTH_TOKEN = os.getenv("TWILIO_AUTH_TOKEN")
 
-
+TAU_API_KEY = os.getenv("TAU_API_KEY")
 
 
 
@@ -284,3 +290,4 @@ LOGGING = {
     },
 }
 
+LANGUAGE_CODE = 'es'

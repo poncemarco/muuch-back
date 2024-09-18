@@ -52,7 +52,7 @@ class CategorySerializer(serializers.ModelSerializer):
         return None
     
     def get_number_of_items(self, obj):
-        return obj.item_set.count()
+        return obj.number_of_items
     
     class Meta:
         model = Category
