@@ -9,4 +9,5 @@
 .gitignore
 *env
 /.vscode
+compose.yml
 
