@@ -24,23 +24,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-39d@cf4*q3$wz^k4dvmuzdq38y-y@*n!m^vq-o&cbs!=-^@8q0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = "ws" in str(BASE_DIR)
-ALLOWED_HOSTS = ['rama-ws.com', 'localhost', 'muuch-maaya.com', '161.35.236.111', 'www.rama-ws.com']
+ALLOWED_HOSTS = ['rama-ws.com', 'localhost', 'muuch-maaya.com', '161.35.236.111', 'www.rama-ws.com', '64.23.128.152']
 # Application definition
 
 INSTALLED_APPS = [
     #admin styles
-    'image_uploader_widget',
-    "unfold",  # before django.contrib.admin
-    "unfold.contrib.filters",  # optional, if special filters are needed
-    "unfold.contrib.forms",  # optional, if special form elements are needed
-    "unfold.contrib.inlines",  # optional, if special inlines are needed
-    "unfold.contrib.import_export",  # optional, if django-import-export package is used
-    "unfold.contrib.guardian",  # optional, if django-guardian package is used
-    "unfold.contrib.simple_history",  # optional, if django-simple-history package is used
     
     'django.contrib.admin',
     'django.contrib.auth',
