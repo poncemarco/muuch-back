@@ -9,10 +9,10 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 DATABASES = {
         'default' : {
             "ENGINE": "django.db.backends.postgresql",
-            "NAME": "muuch",
+            "NAME": os.getenv('DB_NAME'),
             "USER": os.getenv('DB_USER'),
             "PASSWORD": os.getenv('DB_PASSWORD'),
             "HOST": "localhost",
-            "PORT": "",
+            "PORT": "5432",
         }
     }

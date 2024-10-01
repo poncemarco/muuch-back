@@ -14,13 +14,14 @@ def run():
     items_in_database = Item.objects.all().values_list('external_id', flat=True)
     items_in_database = set([item for item in items_in_database])
     for item in items:
-        if not 'categoria' in item or 'precio' in item:
+        if not 'categoria' in item or not 'precio' in item:
             continue
-        if item.get('category') and item.get('category') not in categories_set:
-            item_category = Category(name=item.get('category'))
+        if item.get('categoria') and item.get('categoria') not in categories_set:
+            item_category = Category(name=item.get('categoria'))
             categories_to_create.append(item_category)
-            categories_set.add(item.get('category'))
+            categories_set.add(item.get('categoria'))
     Category.objects.bulk_create(categories_to_create)
+    print(len(categories_to_create))
     items_to_create = []
     categories_id = Category.objects.all().values_list('id', 'name')
     categories_dict = {name: id for id, name in categories_id}
