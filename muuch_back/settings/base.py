@@ -52,7 +52,10 @@ INSTALLED_APPS = [
     'payments',
     'files',
     'locations',
-    'users'
+    'users',
+    
+    #aws
+    'storages',
     
 ]
 
@@ -129,16 +132,6 @@ USE_I18N = True
 
 USE_TZ = True
 
-
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/4.2/howto/static-files/
-
-STATIC_URL = 'assets/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'assets/')
-
-
-MEDIA_URL = "/media/"
-MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
 VERSATILEIMAGEFIELD_SETTINGS = {
     # The amount of time, in seconds, that references to created images
@@ -231,15 +224,6 @@ DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 SUPPORT_EMAIL = "maarco.app98@gmail.com"
 SERVER_EMAIL = EMAIL_HOST_USER
 
-
-## Aws settings
-AWS_ACCESS_KEY_ID = os.getenv("AWS_ACCESS_KEY_ID")
-AWS_SECRET_ACCESS_KEY = os.getenv("AWS_SECRET_ACCESS_KEY")
-AWS_STORAGE_BUCKET_NAME = os.getenv("AWS_STORAGE_BUCKET_NAME")
-AWS_S3_REGION_NAME = os.getenv("AWS_S3_REGION_NAME")
-AWS_QUERYSTRING_AUTH=False
-STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 
 
 

@@ -15,7 +15,7 @@ class ItemAdmin(admin.ModelAdmin):
 class CategoryAdmin(admin.ModelAdmin):
     search_fields = ['name']  
     empty_value_display = "-"
-    fields = ["name"]
+    fields = ["name", "image_tag"]
     list_display = ["name"]
     
         
